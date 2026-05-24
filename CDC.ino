@@ -2,62 +2,74 @@
 // Author: @slowtouge_racer (Instagram) - <https://discord.gg/TAAp7jkGBY>
 // This code runs on a Wemos D1 board (ESP8266) and controls a relay to switch between the OEM CD changer and the RaspBerryPi. 
 // The reason why i use an additional board instead of controlling the relay directly from the RaspBerryPi is that i have a hifi DAC HAT on the rPi that does not give me access to the GPIO pins (i already ordered a different HAT but for now i'm gonna use this solution)
-
 #define RELAY_PIN 14
 #define SERIAL_BAUD 115200
-#define TIMEOUT_MS 10000 
+#define TIMEOUT_MS 10000
+#define LINE_MAX 64
 
-String line = "";
+char line[LINE_MAX + 1];
+size_t linePos = 0;
+
 bool relayOn = false;
 unsigned long lastCommandMs = 0;
 
 void setRelay(bool on) {
-    relayOn = on;
-    digitalWrite(RELAY_PIN, on ? HIGH : LOW);
+  relayOn = on;
+  digitalWrite(RELAY_PIN, on ? HIGH : LOW);
 }
 
-void replyState() {
-    if (relayOn) {
-        Serial.println("STATE PI");
-    } else {
-        Serial.println("STATE OEM");
+void sendState() {
+  if (relayOn) {
+    Serial.println("PI");
+  } else {
+    Serial.println("OEM");
+  }
+}
+
+void handleCommand(char *cmd) {
+  while (*cmd == ' ') cmd++;
+
+  for (char *p = cmd; *p; ++p) {
+    if (*p >= 'a' && *p <= 'z') {
+      *p = *p - 'a' + 'A';
     }
-}
+  }
 
-void handleCommand(String cmd) {
-  cmd.trim();
-  cmd.toUpperCase();
-
-  if (cmd == "SRC PI") {
-    setRelay(true);
-    lastCommandMs = millis();
-    Serial.println("OK PI");
-  } 
-  else if (cmd == "SRC OEM") {
-    setRelay(false);
-    lastCommandMs = millis();
-    Serial.println("OK OEM");
-  } 
-  else if (cmd == "STATE") {
-    replyState();
-  } 
-  else if (cmd == "PING") {
+  if (strcmp(cmd, "PING") == 0) {
     lastCommandMs = millis();
     Serial.println("PONG");
-  } 
-  else {
-    Serial.print("ERR ");
-    Serial.println(cmd);
+    return;
   }
+
+  if (strcmp(cmd, "SRC PI") == 0) {
+    setRelay(true);
+    lastCommandMs = millis();
+    Serial.println("PI");
+    return;
+  }
+
+  if (strcmp(cmd, "SRC OEM") == 0) {
+    setRelay(false);
+    lastCommandMs = millis();
+    Serial.println("OEM");
+    return;
+  }
+
+  if (strcmp(cmd, "STATE") == 0) {
+    lastCommandMs = millis();
+    sendState();
+    return;
+  }
+
+  Serial.println("ERR");
 }
 
 void setup() {
   pinMode(RELAY_PIN, OUTPUT);
-  setRelay(false);                 
+  setRelay(false);
   Serial.begin(SERIAL_BAUD);
   Serial.setTimeout(50);
   lastCommandMs = millis();
-  Serial.println("BOOT OEM");
 }
 
 void loop() {
@@ -65,21 +77,23 @@ void loop() {
     char c = (char)Serial.read();
 
     if (c == '\n' || c == '\r') {
-      if (line.length() > 0) {
+      if (linePos > 0) {
+        line[linePos] = '\0';
         handleCommand(line);
-        line = "";
+        linePos = 0;
       }
     } else {
-      line += c;
-      if (line.length() > 64) {
-        line = "";
-        Serial.println("ERR OVERFLOW");
+      if (linePos < LINE_MAX) {
+        line[linePos++] = c;
+      } else {
+        linePos = 0;
+        Serial.println("ERR");
       }
     }
   }
 
   if (relayOn && (millis() - lastCommandMs > TIMEOUT_MS)) {
     setRelay(false);
-    Serial.println("TIMEOUT OEM");
+    Serial.println("OEM");
   }
 }
