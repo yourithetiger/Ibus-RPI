@@ -243,22 +243,27 @@ class WemosRelay:
                     return lines[-1]
         return None
 
-    def _exchange(self, cmd: str, expected=None):
+    def _drain_complete_lines(self, max_wait=0.05):
+        deadline = time.time() + max_wait
+        out = []
+        while time.time() < deadline:
+            chunk = self.ser.read(64)
+            if not chunk:
+                break
+            self.rxbuf.extend(chunk)
+            out.extend(self._extract_lines(log_prefix="Wemos stale"))
+        return out
+
+    def _exchange(self, cmd: str):
         if not self.ser:
             return None
 
         try:
-            self.ser.reset_input_buffer()
-            self.rxbuf.clear()
+            self._drain_complete_lines(0.05)
             self.ser.write((cmd + "\n").encode())
             self.ser.flush()
             logging.info("Wemos TX -> %s", cmd)
-
-            rep = self._read_reply(timeout_s=1.0)
-            if expected is None:
-                return rep
-            return rep
-
+            return self._read_reply(timeout_s=1.5)
         except Exception as e:
             logging.warning("Wemos exchange failed: %s", e)
             self.close()
