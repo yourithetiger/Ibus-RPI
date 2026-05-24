@@ -55,100 +55,106 @@ def frame_valid(frame: bytes) -> bool:
 def rebuild_checksum(frame: bytes) -> bytes:
     return frame[:-1] + bytes([xor_checksum(frame[:-1])])
 
-def list_serial_candidates():
-    ports = []
-    for p in list_ports.comports(include_links=True):
-        ports.append({
-            "device": p.device,
-            "description": p.description,
-            "hwid": p.hwid,
-            "vid": p.vid,
-            "pid": p.pid,
-            "manufacturer": getattr(p, "manufacturer", None),
-            "product": getattr(p, "product", None),
-            "serial_number": getattr(p, "serial_number", None),
-            "location": getattr(p, "location", None),
-            "interface": getattr(p, "interface", None),
-        })
-    return ports
-
 def port_exists(path: str) -> bool:
     return os.path.exists(path)
+
+def list_serial_candidates():
+    out = []
+    for p in list_ports.comports(include_links=True):
+        out.append({
+            "device": p.device,
+            "description": p.description or "",
+            "hwid": p.hwid or "",
+            "vid": p.vid,
+            "pid": p.pid,
+            "manufacturer": getattr(p, "manufacturer", "") or "",
+            "product": getattr(p, "product", "") or "",
+            "serial_number": getattr(p, "serial_number", "") or "",
+            "location": getattr(p, "location", "") or "",
+            "interface": getattr(p, "interface", "") or "",
+        })
+    return out
+
+def is_linux_usb_serial_path(path: str) -> bool:
+    return (
+        path.startswith("/dev/ttyUSB")
+        or path.startswith("/dev/ttyACM")
+        or path.startswith("/dev/serial/by-id/")
+        or path.startswith("/dev/serial/by-path/")
+    )
 
 def detect_wemos_port():
     if port_exists(WEMOS_FIXED):
         logging.info("Using fixed Wemos port: %s", WEMOS_FIXED)
         return WEMOS_FIXED
 
-    candidates = list_serial_candidates()
-
-    for p in candidates:
+    for p in list_serial_candidates():
         vid = p["vid"]
         pid = p["pid"]
-        desc = (p["description"] or "").lower()
-        prod = (p["product"] or "").lower()
+        desc = p["description"].lower()
+        prod = p["product"].lower()
+        dev = p["device"]
+
+        if not is_linux_usb_serial_path(dev):
+            continue
 
         if (vid == 0x1A86 and pid == 0x7523) or "ch340" in desc or "ch341" in desc or "usb2.0-ser" in prod:
-            logging.info("Auto-detected Wemos candidate: %s (%s)", p["device"], p["description"])
-            return p["device"]
+            logging.info("Auto-detected Wemos candidate: %s (%s)", dev, p["description"])
+            return dev
 
     for path in sorted(glob.glob("/dev/ttyUSB*") + glob.glob("/dev/ttyACM*")):
         logging.info("Fallback Wemos candidate: %s", path)
         return path
 
-    raise RuntimeError("No Wemos serial port found")
+    logging.warning("No Wemos serial port found")
+    return None
 
-def detect_resler_port(wemos_port: str):
+def detect_resler_port(wemos_port):
     if port_exists(RESLER_FIXED):
         logging.info("Using fixed Resler port: %s", RESLER_FIXED)
         return RESLER_FIXED
 
-    candidates = list_serial_candidates()
+    candidates = []
 
-    preferred = []
-    fallback = []
-
-    for p in candidates:
+    for p in list_serial_candidates():
         dev = p["device"]
-        if dev == wemos_port:
-            continue
-        if os.path.realpath(dev) == os.path.realpath(wemos_port):
+
+        if not is_linux_usb_serial_path(dev):
             continue
 
-        desc = (p["description"] or "").lower()
-        prod = (p["product"] or "").lower()
-        manu = (p["manufacturer"] or "").lower()
-        hwid = (p["hwid"] or "").lower()
+        if wemos_port:
+            try:
+                if dev == wemos_port or os.path.realpath(dev) == os.path.realpath(wemos_port):
+                    continue
+            except Exception:
+                if dev == wemos_port:
+                    continue
+
+        desc = p["description"].lower()
+        prod = p["product"].lower()
+        manu = p["manufacturer"].lower()
+        hwid = p["hwid"].lower()
 
         score = 0
         if "resler" in desc or "resler" in prod or "resler" in manu:
             score += 100
-        if "ftdi" in desc or "ftdi" in hwid:
+        if "ftdi" in desc or "ftdi" in prod or "ftdi" in hwid:
             score += 20
         if "usb serial" in desc or "uart" in desc:
             score += 5
 
-        if score > 0:
-            preferred.append((score, dev, p))
-        else:
-            fallback.append((dev, p))
+        candidates.append((score, dev, p))
 
-    if preferred:
-        preferred.sort(reverse=True)
-        dev = preferred[0][1]
-        p = preferred[0][2]
-        logging.info("Auto-detected preferred Resler candidate: %s (%s)", dev, p["description"])
+    if candidates:
+        candidates.sort(key=lambda x: x[0], reverse=True)
+        score, dev, p = candidates[0]
+        logging.info("Selected Resler candidate: %s (%s, score=%d)", dev, p["description"], score)
         return dev
 
-    for dev, p in fallback:
-        logging.info("Fallback Resler candidate: %s (%s)", dev, p["description"])
-        return dev
-
-    raise RuntimeError("No Resler serial port found")
+    logging.warning("No Resler serial port found")
+    return None
 
 class WemosRelay:
-    VALID_REPLIES = {"PONG", "OK", "PI", "OEM"}
-
     def __init__(self, port, baud):
         self.port = port
         self.baud = baud
@@ -156,6 +162,8 @@ class WemosRelay:
         self.current = "OEM"
 
     def connect(self):
+        if not self.port:
+            return
         try:
             self.ser = serial.Serial(
                 self.port,
@@ -196,6 +204,10 @@ class WemosRelay:
                     return rep
             except Exception as e:
                 logging.warning("Wemos exchange failed: %s", e)
+                try:
+                    self.ser.close()
+                except Exception:
+                    pass
                 self.ser = None
                 return None
 
@@ -221,6 +233,7 @@ class WemosRelay:
 
     def keepalive(self):
         if not self.ser:
+            self.connect()
             return
         ok = self.ping()
         if not ok:
@@ -232,6 +245,7 @@ class WemosRelay:
             self.ser = None
             time.sleep(0.5)
             self.connect()
+
 class BMWBackend:
     def __init__(self):
         self.wemos_port = detect_wemos_port()
@@ -240,27 +254,66 @@ class BMWBackend:
         logging.info("Selected Wemos port: %s", self.wemos_port)
         logging.info("Selected Resler port: %s", self.resler_port)
 
-        self.ibus = serial.Serial(
-            port=self.resler_port,
-            baudrate=IBUS_BAUD,
-            bytesize=serial.EIGHTBITS,
-            parity=serial.PARITY_EVEN,
-            stopbits=serial.STOPBITS_ONE,
-            timeout=0.02,
-            write_timeout=0.02
-        )
+        self.ibus = None
+        if self.resler_port:
+            try:
+                self.ibus = serial.Serial(
+                    port=self.resler_port,
+                    baudrate=IBUS_BAUD,
+                    bytesize=serial.EIGHTBITS,
+                    parity=serial.PARITY_EVEN,
+                    stopbits=serial.STOPBITS_ONE,
+                    timeout=0.02,
+                    write_timeout=0.02
+                )
+                logging.info("Resler connected on %s", self.resler_port)
+            except Exception as e:
+                logging.warning("Cannot open Resler on %s: %s", self.resler_port, e)
+                self.ibus = None
 
         self.buf = bytearray()
         self.tv_mode = False
         self.cdc_disc = 2
-        self.wemos = WemosRelay(self.wemos_port, WEMOS_BAUD)
-        self.wemos.connect()
+        self.wemos = WemosRelay(self.wemos_port, WEMOS_BAUD) if self.wemos_port else None
+        if self.wemos:
+            self.wemos.connect()
         self.last_wemos_keepalive = 0.0
+        self.last_resler_retry = 0.0
+
+    def try_open_resler(self):
+        if self.ibus:
+            return
+        now = time.time()
+        if now - self.last_resler_retry < 5.0:
+            return
+        self.last_resler_retry = now
+
+        self.resler_port = detect_resler_port(self.wemos_port)
+        if not self.resler_port:
+            return
+
+        try:
+            self.ibus = serial.Serial(
+                port=self.resler_port,
+                baudrate=IBUS_BAUD,
+                bytesize=serial.EIGHTBITS,
+                parity=serial.PARITY_EVEN,
+                stopbits=serial.STOPBITS_ONE,
+                timeout=0.02,
+                write_timeout=0.02
+            )
+            logging.info("Resler connected on %s", self.resler_port)
+        except Exception as e:
+            logging.warning("Retry open Resler failed on %s: %s", self.resler_port, e)
+            self.ibus = None
 
     def send_ibus(self, frame: bytes):
+        if not self.ibus:
+            logging.warning("IBus TX skipped, no Resler connected")
+            return
         self.ibus.write(frame)
         self.ibus.flush()
-        logging.info("TX %s", frame.hex(' ').upper())
+        logging.info("TX %s", frame.hex(" ").upper())
 
     def tv_on(self):
         self.send_ibus(TV_ON_RADIO)
@@ -320,7 +373,8 @@ class BMWBackend:
             disc = data[2]
             self.cdc_disc = disc
             if disc == 0x01:
-                self.wemos.set_pi()
+                if self.wemos:
+                    self.wemos.set_pi()
                 ack = bytes.fromhex("18 0A 68 39 07 09 00 21 00 01 01 00")
                 self.send_ibus(rebuild_checksum(ack))
                 playing = bytes.fromhex("18 0A 68 39 02 09 00 21 00 01 01 00")
@@ -328,7 +382,8 @@ class BMWBackend:
                 logging.info("CD1 selected -> PI relay")
                 return True
             elif 0x02 <= disc <= 0x06:
-                self.wemos.set_oem()
+                if self.wemos:
+                    self.wemos.set_oem()
                 logging.info("CD%d selected -> OEM relay", disc)
                 return False
 
@@ -353,7 +408,8 @@ class BMWBackend:
 
         status = bytearray(frame)
         magazine_index = 7
-        status[magazine_index] |= MAG_SLOT_1
+        if magazine_index < len(status) - 1:
+            status[magazine_index] |= MAG_SLOT_1
         return rebuild_checksum(bytes(status))
 
     def handle_frame(self, frame: bytes):
@@ -379,12 +435,27 @@ class BMWBackend:
 
     def read_loop(self):
         while True:
-            b = self.ibus.read(1)
             now = time.time()
 
-            if now - self.last_wemos_keepalive > 3.0:
+            if self.wemos and now - self.last_wemos_keepalive > 3.0:
                 self.wemos.keepalive()
                 self.last_wemos_keepalive = now
+
+            if not self.ibus:
+                self.try_open_resler()
+                time.sleep(0.2)
+                continue
+
+            try:
+                b = self.ibus.read(1)
+            except Exception as e:
+                logging.warning("Resler read failed: %s", e)
+                try:
+                    self.ibus.close()
+                except Exception:
+                    pass
+                self.ibus = None
+                continue
 
             if not b:
                 continue
