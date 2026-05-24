@@ -153,7 +153,6 @@ def detect_resler_port(wemos_port):
 
     logging.warning("No Resler serial port found")
     return None
-
 class WemosRelay:
     def __init__(self, port, baud):
         self.port = port
@@ -161,6 +160,7 @@ class WemosRelay:
         self.ser = None
         self.current = "OEM"
         self.bad_ping_count = 0
+        self.rxbuf = bytearray()
 
     def connect(self):
         if not self.port:
@@ -170,7 +170,7 @@ class WemosRelay:
             ser = serial.Serial()
             ser.port = self.port
             ser.baudrate = self.baud
-            ser.timeout = 0.5
+            ser.timeout = 0.1
             ser.write_timeout = 0.5
             ser.exclusive = True
             ser.dtr = False
@@ -187,20 +187,14 @@ class WemosRelay:
             ser.reset_input_buffer()
             ser.reset_output_buffer()
 
-            t_end = time.time() + 1.0
-            while time.time() < t_end:
-                line = ser.readline().decode(errors="ignore").strip()
-                if line:
-                    logging.info("Wemos startup junk: %r", line)
-
             self.ser = ser
+            self.rxbuf.clear()
             self.bad_ping_count = 0
             logging.info("Wemos connected on %s", self.port)
 
         except Exception as e:
             logging.warning("No Wemos connection on %s: %s", self.port, e)
             self.ser = None
-
 
     def close(self):
         if self.ser:
@@ -209,18 +203,44 @@ class WemosRelay:
             except Exception:
                 pass
         self.ser = None
+        self.rxbuf.clear()
 
-    def _read_reply(self, timeout_s=0.8):
+    def _drain_boot_junk(self, duration=0.5):
+        if not self.ser:
+            return
+        end = time.time() + duration
+        while time.time() < end:
+            chunk = self.ser.read(64)
+            if chunk:
+                self.rxbuf.extend(chunk)
+                self._extract_lines(log_prefix="Wemos junk")
+
+    def _extract_lines(self, log_prefix="Wemos RX"):
+        lines = []
+        while True:
+            nl = self.rxbuf.find(b"\n")
+            if nl < 0:
+                break
+            raw = self.rxbuf[:nl + 1]
+            del self.rxbuf[:nl + 1]
+            line = raw.decode(errors="ignore").replace("\r", "").replace("\n", "").strip()
+            if line:
+                logging.info("%s <- %s", log_prefix, line)
+                lines.append(line)
+        return lines
+
+    def _read_reply(self, timeout_s=1.0):
         if not self.ser:
             return None
 
         deadline = time.time() + timeout_s
         while time.time() < deadline:
-            line = self.ser.readline().decode(errors="ignore").strip()
-            if not line:
-                continue
-            logging.info("Wemos RX <- %s", line)
-            return line
+            chunk = self.ser.read(64)
+            if chunk:
+                self.rxbuf.extend(chunk)
+                lines = self._extract_lines()
+                if lines:
+                    return lines[-1]
         return None
 
     def _exchange(self, cmd: str, expected=None):
@@ -229,14 +249,13 @@ class WemosRelay:
 
         try:
             self.ser.reset_input_buffer()
+            self.rxbuf.clear()
             self.ser.write((cmd + "\n").encode())
             self.ser.flush()
             logging.info("Wemos TX -> %s", cmd)
 
-            rep = self._read_reply()
+            rep = self._read_reply(timeout_s=1.0)
             if expected is None:
-                return rep
-            if rep in expected:
                 return rep
             return rep
 
@@ -254,7 +273,7 @@ class WemosRelay:
         self.bad_ping_count += 1
         logging.warning("Wemos invalid ping reply: %r (count=%d)", rep, self.bad_ping_count)
 
-        if self.bad_ping_count >= 3:
+        if self.bad_ping_count >= 5:
             logging.warning("Too many bad ping replies, reconnecting Wemos")
             self.close()
             time.sleep(0.5)
@@ -263,26 +282,31 @@ class WemosRelay:
         return False
 
     def set_pi(self):
-        rep = self._exchange("SRC PI", expected={"PI", "OK"})
+        rep = self._exchange("SRC PI")
         if rep in {"PI", "OK"}:
             self.current = "PI"
             self.bad_ping_count = 0
             return True
+        logging.warning("Wemos bad SRC PI reply: %r", rep)
         return False
 
     def set_oem(self):
-        rep = self._exchange("SRC OEM", expected={"OEM", "OK"})
+        rep = self._exchange("SRC OEM")
         if rep in {"OEM", "OK"}:
             self.current = "OEM"
             self.bad_ping_count = 0
             return True
+        logging.warning("Wemos bad SRC OEM reply: %r", rep)
         return False
 
     def keepalive(self):
         if not self.ser:
             self.connect()
+            if self.ser:
+                self._drain_boot_junk()
             return
         self.ping()
+
 class BMWBackend:
     def __init__(self):
         self.wemos_port = detect_wemos_port()
