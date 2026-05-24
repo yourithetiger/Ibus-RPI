@@ -1,0 +1,14 @@
+[Unit]
+Description=BMW IBus backend
+After=multi-user.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/Ibus-git/Ibus-service
+ExecStart=/usr/bin/python3 /opt/Ibus-git/Ibus-service/ibus.py
+Restart=always
+RestartSec=2
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target
