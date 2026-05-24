@@ -254,7 +254,7 @@ class WemosRelay:
             out.extend(self._extract_lines(log_prefix="Wemos stale"))
         return out
 
-    def _exchange(self, cmd: str):
+    def _exchange(self, cmd: str, expected=None):
         if not self.ser:
             return None
 
