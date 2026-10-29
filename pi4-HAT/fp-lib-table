@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "pi4-HAT")(type "KiCad")(uri "${KIPRJMOD}/pi4-HAT.pretty")(options "")(descr "Custom footprints for pi4-HAT"))
+)

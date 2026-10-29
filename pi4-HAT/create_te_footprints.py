@@ -1,0 +1,75 @@
+import os
+
+FP_DIR = "/home/Youri621/E39Project/Ibus-RPI/pi4-HAT/pi4-HAT.pretty"
+os.makedirs(FP_DIR, exist_ok=True)
+
+# 1. TE_MQS_3PIN (TE Connectivity 953442-1)
+te_3p = """(footprint "TE_MQS_3PIN"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "TE Connectivity 953442-1 3-pin Right-Angle MQS Header (BMW KL30/GND/I-Bus)")
+	(tags "TE Connectivity 953442-1 MQS BMW")
+	(property "Reference" "REF**" (at 2.54 2.54 0) (layer "F.SilkS")
+		(effects (font (size 1 1) (thickness 0.15)))
+	)
+	(property "Value" "TE_953442-1" (at 2.54 -17 0) (layer "F.Fab")
+		(effects (font (size 1 1) (thickness 0.15)))
+	)
+	(fp_line (start -4.51 -3.4) (end 7.69 -3.4) (stroke (width 0.15) (type solid)) (layer "F.SilkS"))
+	(fp_line (start 7.69 -3.4) (end 7.69 -15.1) (stroke (width 0.15) (type solid)) (layer "F.SilkS"))
+	(fp_line (start 7.69 -15.1) (end -4.51 -15.1) (stroke (width 0.15) (type solid)) (layer "F.SilkS"))
+	(fp_line (start -4.51 -15.1) (end -4.51 -3.4) (stroke (width 0.15) (type solid)) (layer "F.SilkS"))
+	(fp_line (start -4.51 -2.4) (end -4.51 -3.4) (stroke (width 0.15) (type solid)) (layer "F.SilkS"))
+	(fp_line (start 7.69 -2.2) (end 7.69 -3.4) (stroke (width 0.15) (type solid)) (layer "F.SilkS"))
+	(fp_line (start -1.7 -1.4) (end 6.8 -1.4) (stroke (width 0.15) (type solid)) (layer "F.SilkS"))
+	(fp_circle (center -3.81 0) (end -1.31 0) (stroke (width 0.15) (type solid)) (layer "F.SilkS"))
+	(fp_circle (center 8.89 0) (end 11.39 0) (stroke (width 0.15) (type solid)) (layer "F.SilkS"))
+	(pad "" np_thru_hole circle (at -3.81 0) (size 2.1 2.1) (drill 2.1) (layers "*.Cu" "*.Mask"))
+	(pad "" np_thru_hole circle (at 8.89 0) (size 2.1 2.1) (drill 2.1) (layers "*.Cu" "*.Mask"))
+	(pad "1" thru_hole roundrect (at 0 0) (size 1.88 1.88) (drill 1) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.25))
+	(pad "2" thru_hole oval (at 2.54 0) (size 1.88 1.88) (drill 1) (layers "*.Cu" "*.Mask"))
+	(pad "3" thru_hole oval (at 5.08 0) (size 1.88 1.88) (drill 1) (layers "*.Cu" "*.Mask"))
+)
+"""
+
+with open(os.path.join(FP_DIR, "TE_MQS_3PIN.kicad_mod"), "w") as f:
+    f.write(te_3p)
+
+# 2. TE_MQS_6PIN (TE Connectivity 966871-1)
+te_6p = """(footprint "TE_MQS_6PIN"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "TE Connectivity 966871-1 6-pin Right-Angle MQS Header (BMW CD Changer Audio)")
+	(tags "TE Connectivity 966871-1 MQS BMW CDC")
+	(property "Reference" "REF**" (at 2.54 5.0) (layer "F.SilkS")
+		(effects (font (size 1 1) (thickness 0.15)))
+	)
+	(property "Value" "TE_966871-1" (at 2.54 -22.5) (layer "F.Fab")
+		(effects (font (size 1 1) (thickness 0.15)))
+	)
+	(fp_line (start -6.3 2.54) (end -6.3 -4.26) (stroke (width 0.15) (type solid)) (layer "F.SilkS"))
+	(fp_line (start -6.3 -4.26) (end -4.11 -4.26) (stroke (width 0.15) (type solid)) (layer "F.SilkS"))
+	(fp_line (start -4.11 -4.26) (end 8.89 -4.26) (stroke (width 0.15) (type solid)) (layer "F.SilkS"))
+	(fp_line (start 8.89 -4.26) (end 8.89 -20.76) (stroke (width 0.15) (type solid)) (layer "F.SilkS"))
+	(fp_line (start 8.89 -20.76) (end -4.11 -20.76) (stroke (width 0.15) (type solid)) (layer "F.SilkS"))
+	(fp_line (start -4.11 -20.76) (end -4.11 -4.26) (stroke (width 0.15) (type solid)) (layer "F.SilkS"))
+	(fp_circle (center -3.81 2.54) (end -1.31 2.54) (stroke (width 0.15) (type solid)) (layer "F.SilkS"))
+	(pad "" np_thru_hole circle (at -3.81 2.54) (size 1.9 1.9) (drill 1.9) (layers "*.Cu" "*.Mask"))
+	(pad "" np_thru_hole circle (at 8.89 2.54) (size 1.9 1.9) (drill 1.9) (layers "*.Cu" "*.Mask"))
+	(pad "1" thru_hole roundrect (at 5.08 2.54) (size 1.88 1.88) (drill 1.02) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.25))
+	(pad "2" thru_hole oval (at 2.54 2.54) (size 1.88 1.88) (drill 1.02) (layers "*.Cu" "*.Mask"))
+	(pad "3" thru_hole oval (at 0 2.54) (size 1.88 1.88) (drill 1.02) (layers "*.Cu" "*.Mask"))
+	(pad "4" thru_hole oval (at 5.08 0) (size 1.88 1.88) (drill 1.02) (layers "*.Cu" "*.Mask"))
+	(pad "5" thru_hole oval (at 2.54 0) (size 1.88 1.88) (drill 1.02) (layers "*.Cu" "*.Mask"))
+	(pad "6" thru_hole oval (at 0 0) (size 1.88 1.88) (drill 1.02) (layers "*.Cu" "*.Mask"))
+)
+"""
+
+with open(os.path.join(FP_DIR, "TE_MQS_6PIN.kicad_mod"), "w") as f:
+    f.write(te_6p)
+
+print("TE Connectivity MQS footprints generated successfully.")

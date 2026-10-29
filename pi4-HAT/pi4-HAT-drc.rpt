@@ -1,0 +1,2040 @@
+** Drc report for pi4-HAT.kicad_pcb **
+** Created on 2026-10-28T12:23:14 **
+** Report includes: Errors, Warnings **
+
+** Found 56 DRC violations **
+[silk_overlap]: Silkscreen clearance
+    Rule: configuration des contraintes de la sérigraphie; error
+    @(186.0000 mm, 107.6200 mm): Champ référence de J_TV_TRIG
+    @(182.7400 mm, 104.6800 mm): Segment de J_REV sur F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: configuration des contraintes de la sérigraphie; error
+    @(181.7600 mm, 74.5600 mm): Segment de Q1 sur F.Silkscreen
+    @(181.0000 mm, 76.1500 mm): Champ référence de D7
+[silk_overlap]: Silkscreen clearance
+    Rule: configuration des contraintes de la sérigraphie; error
+    @(181.7600 mm, 75.5600 mm): Segment de Q1 sur F.Silkscreen
+    @(181.0000 mm, 76.1500 mm): Champ référence de D7
+[silk_overlap]: Silkscreen clearance
+    Rule: configuration des contraintes de la sérigraphie; error
+    @(186.0000 mm, 107.6200 mm): Champ référence de J_TV_TRIG
+    @(188.3200 mm, 106.0000 mm): Champ référence de C33
+[silk_overlap]: Silkscreen clearance
+    Rule: configuration des contraintes de la sérigraphie; error
+    @(180.2400 mm, 75.5600 mm): Segment de Q1 sur F.Silkscreen
+    @(181.0000 mm, 76.1500 mm): Champ référence de D7
+[silk_overlap]: Silkscreen clearance
+    Rule: configuration des contraintes de la sérigraphie; error
+    @(112.5700 mm, 76.0000 mm): Champ référence de R29
+    @(113.0000 mm, 77.6000 mm): Champ référence de Q3
+[silk_overlap]: Silkscreen clearance
+    Rule: configuration des contraintes de la sérigraphie; error
+    @(122.0000 mm, 67.8900 mm): Champ référence de SW_BENCH
+    @(120.5700 mm, 67.0000 mm): Champ référence de R2
+[silk_overlap]: Silkscreen clearance
+    Rule: configuration des contraintes de la sérigraphie; error
+    @(121.4775 mm, 67.2373 mm): Segment de R2 sur F.Silkscreen
+    @(122.0000 mm, 67.8900 mm): Champ référence de SW_BENCH
+[silk_overlap]: Silkscreen clearance
+    Rule: configuration des contraintes de la sérigraphie; error
+    @(122.5225 mm, 67.2373 mm): Segment de R2 sur F.Silkscreen
+    @(122.0000 mm, 67.8900 mm): Champ référence de SW_BENCH
+[silk_overlap]: Silkscreen clearance
+    Rule: configuration des contraintes de la sérigraphie; error
+    @(121.5700 mm, 76.0000 mm): Champ référence de R32
+    @(122.0000 mm, 77.6000 mm): Champ référence de U6
+[silk_overlap]: Silkscreen clearance
+    Rule: configuration des contraintes de la sérigraphie; error
+    @(110.2400 mm, 97.5600 mm): Segment de Q5 sur F.Silkscreen
+    @(111.0000 mm, 98.1500 mm): Champ référence de D10
+[silk_overlap]: Silkscreen clearance
+    Rule: configuration des contraintes de la sérigraphie; error
+    @(111.0000 mm, 98.1500 mm): Champ référence de D10
+    @(111.7600 mm, 97.5600 mm): Segment de Q5 sur F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: configuration des contraintes de la sérigraphie; error
+    @(111.7600 mm, 96.5600 mm): Segment de Q5 sur F.Silkscreen
+    @(111.0000 mm, 98.1500 mm): Champ référence de D10
+[silk_overlap]: Silkscreen clearance
+    Rule: configuration des contraintes de la sérigraphie; error
+    @(137.3200 mm, 95.0000 mm): Champ référence de C20
+    @(136.7350 mm, 95.2613 mm): Segment de C19 sur F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: configuration des contraintes de la sérigraphie; error
+    @(141.8594 mm, 82.5100 mm): Segment de C3 sur F.Silkscreen
+    @(142.0000 mm, 82.2000 mm): Champ référence de U4
+[silk_overlap]: Silkscreen clearance
+    Rule: configuration des contraintes de la sérigraphie; error
+    @(158.7600 mm, 102.5600 mm): Segment de Q2 sur F.Silkscreen
+    @(158.0000 mm, 103.6000 mm): Champ référence de D8
+[silk_overlap]: Silkscreen clearance
+    Rule: configuration des contraintes de la sérigraphie; error
+    @(158.0000 mm, 103.6000 mm): Champ référence de D8
+    @(158.7600 mm, 103.5600 mm): Segment de Q2 sur F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: configuration des contraintes de la sérigraphie; error
+    @(158.0000 mm, 103.6000 mm): Champ référence de D8
+    @(157.2400 mm, 103.5600 mm): Segment de Q2 sur F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: configuration des contraintes de la sérigraphie; error
+    @(153.0000 mm, 99.6000 mm): Champ référence de D11
+    @(152.5700 mm, 98.0000 mm): Champ référence de R19
+[silk_overlap]: Silkscreen clearance
+    Rule: configuration des contraintes de la sérigraphie; error
+    @(152.2400 mm, 103.5600 mm): Segment de D11 sur F.Silkscreen
+    @(153.0000 mm, 103.6000 mm): Champ référence de D12
+[silk_overlap]: Silkscreen clearance
+    Rule: configuration des contraintes de la sérigraphie; error
+    @(153.7600 mm, 102.5600 mm): Segment de D11 sur F.Silkscreen
+    @(153.0000 mm, 103.6000 mm): Champ référence de D12
+[silk_overlap]: Silkscreen clearance
+    Rule: configuration des contraintes de la sérigraphie; error
+    @(153.0000 mm, 103.6000 mm): Champ référence de D12
+    @(153.7600 mm, 103.5600 mm): Segment de D11 sur F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: configuration des contraintes de la sérigraphie; error
+    @(134.2000 mm, 106.0000 mm): Champ référence de J_RCA_CAM
+    @(134.5700 mm, 105.0000 mm): Champ référence de R25
+[silk_overlap]: Silkscreen clearance
+    Rule: configuration des contraintes de la sérigraphie; error
+    @(145.0000 mm, 98.3200 mm): Champ référence de C24
+    @(146.5700 mm, 98.0000 mm): Champ référence de R17
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; error
+    @(186.0000 mm, 107.6200 mm): Champ référence de J_TV_TRIG
+    @(190.0000 mm, 106.9500 mm): Pad 1 [Net-(C33-Pad1)] de C33 sur F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; error
+    @(192.0000 mm, 107.6200 mm): Champ référence de J_MIC
+    @(190.0000 mm, 106.9500 mm): Pad 1 [Net-(C33-Pad1)] de C33 sur F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; error
+    @(113.0000 mm, 77.6000 mm): Champ référence de Q3
+    @(114.0000 mm, 76.8250 mm): Pad 1 [VRAW] de R29 sur F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; error
+    @(122.0000 mm, 67.8900 mm): Champ référence de SW_BENCH
+    @(122.0000 mm, 67.8250 mm): Pad 1 [+3V3] de R2 sur F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; error
+    @(122.0000 mm, 77.6000 mm): Champ référence de U6
+    @(123.0000 mm, 76.8250 mm): Pad 1 [Net-(R32-Pad1)] de R32 sur F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; error
+    @(111.0000 mm, 93.6000 mm): Champ référence de Q5
+    @(111.0000 mm, 92.8250 mm): Pad 1 [FAN_GATE] de R26 sur F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; error
+    @(137.3200 mm, 95.0000 mm): Champ référence de C20
+    @(136.0000 mm, 95.9500 mm): Pad 1 [DAC_FLT_L] de C19 sur F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; error
+    @(137.3200 mm, 95.0000 mm): Champ référence de C20
+    @(136.0000 mm, 94.0500 mm): Pad 2 [PI_AUDIO_L] de C19 sur F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; error
+    @(158.0000 mm, 103.6000 mm): Champ référence de D8
+    @(157.0625 mm, 102.9500 mm): Pad 2 [GND] de Q2 sur F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; error
+    @(153.0000 mm, 99.6000 mm): Champ référence de D11
+    @(154.0000 mm, 98.8250 mm): Pad 1 [+3V3] de R19 sur F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; error
+    @(154.5700 mm, 83.0000 mm): Champ référence de R10
+    @(153.4750 mm, 81.4450 mm): Pad 9 [TH3122_SEN_STA] de U2 sur F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; error
+    @(146.5700 mm, 98.0000 mm): Champ référence de R17
+    @(145.9500 mm, 100.0000 mm): Pad 2 [GND] de C24 sur F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; error
+    @(142.0000 mm, 82.2000 mm): Champ référence de U4
+    @(142.7750 mm, 82.0000 mm): Pad 2 [GND] de C3 sur F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; error
+    @(142.0000 mm, 82.2000 mm): Champ référence de U4
+    @(141.2250 mm, 82.0000 mm): Pad 1 [+12V_IN] de C3 sur F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; error
+    @(153.0000 mm, 103.6000 mm): Champ référence de D12
+    @(152.0625 mm, 102.9500 mm): Pad 2 [GPIO24] de D11 sur F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; error
+    @(109.0000 mm, 59.8700 mm): Segment de J1 sur B.Silkscreen
+    @(108.0000 mm, 56.0000 mm): Pad Non Métallisé de MH1
+[lib_footprint_mismatch]: L’empreinte 'PinSocket_2x20_P2.54mm_Vertical' ne correspond pas à la copie en librairie 'Connector_PinSocket_2.54mm'
+    Local override; warning
+    @(112.8700 mm, 58.5400 mm): Empreinte J1
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: configuration des contraintes de la sérigraphie; warning
+    @(197.0000 mm, 115.0000 mm): Segment sur Edge.Cuts
+    @(175.0000 mm, 114.7200 mm): Polygone de J_REV sur F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: configuration des contraintes de la sérigraphie; warning
+    @(200.0000 mm, 53.0000 mm): Segment sur Edge.Cuts
+    @(198.4000 mm, 69.6900 mm): Segment de J_CAR_3P sur F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: configuration des contraintes de la sérigraphie; warning
+    @(200.0000 mm, 53.0000 mm): Segment sur Edge.Cuts
+    @(210.1000 mm, 57.4900 mm): Segment de J_CAR_3P sur F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: configuration des contraintes de la sérigraphie; warning
+    @(100.0000 mm, 112.0000 mm): Segment sur Edge.Cuts
+    @(99.1800 mm, 78.2600 mm): Segment de J_DVR sur F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: configuration des contraintes de la sérigraphie; warning
+    @(100.0000 mm, 112.0000 mm): Segment sur Edge.Cuts
+    @(109.2200 mm, 88.6600 mm): Segment de J_DVR sur F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: configuration des contraintes de la sérigraphie; warning
+    @(103.0000 mm, 50.0000 mm): Segment sur Edge.Cuts
+    @(165.0000 mm, 50.5700 mm): Champ référence de C5
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: configuration des contraintes de la sérigraphie; warning
+    @(197.0000 mm, 115.0000 mm): Segment sur Edge.Cuts
+    @(114.6200 mm, 110.2700 mm): Segment de J_PI_VID sur F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: configuration des contraintes de la sérigraphie; warning
+    @(197.0000 mm, 115.0000 mm): Segment sur Edge.Cuts
+    @(117.3800 mm, 110.2700 mm): Segment de J_PI_VID sur F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: configuration des contraintes de la sérigraphie; warning
+    @(200.0000 mm, 53.0000 mm): Segment sur Edge.Cuts
+    @(199.2600 mm, 88.8900 mm): Segment de J_CAR_6P sur F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: configuration des contraintes de la sérigraphie; warning
+    @(200.0000 mm, 53.0000 mm): Segment sur Edge.Cuts
+    @(215.7600 mm, 75.8900 mm): Segment de J_CAR_6P sur F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: configuration des contraintes de la sérigraphie; warning
+    @(100.0000 mm, 112.0000 mm): Segment sur Edge.Cuts
+    @(99.6100 mm, 74.6500 mm): Segment de SW_DVR_CFG sur F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: configuration des contraintes de la sérigraphie; warning
+    @(100.0000 mm, 112.0000 mm): Segment sur Edge.Cuts
+    @(99.8500 mm, 67.5900 mm): Segment de SW_DVR_CFG sur F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: configuration des contraintes de la sérigraphie; warning
+    @(100.0000 mm, 112.0000 mm): Segment sur Edge.Cuts
+    @(99.8500 mm, 74.4100 mm): Segment de SW_DVR_CFG sur F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: configuration des contraintes de la sérigraphie; warning
+    @(103.0000 mm, 50.0000 mm): Segment sur Edge.Cuts
+    @(109.0000 mm, 59.8700 mm): Segment de J1 sur B.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: configuration des contraintes de la sérigraphie; warning
+    @(103.0000 mm, 50.0000 mm): Segment sur Edge.Cuts
+    @(114.2000 mm, 57.2700 mm): Segment de J1 sur B.Silkscreen
+
+** Found 253 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(104.5000 mm, 99.0000 mm): Pad métallisé 1 [+5V] de J_FAN
+    @(109.9500 mm, 100.0000 mm): Pad 1 [+5V] de D10 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(109.9500 mm, 100.0000 mm): Pad 1 [+5V] de D10 sur F.Cu
+    @(138.1375 mm, 101.5000 mm): Pad 5 [+5V] de U5 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(110.3300 mm, 58.5400 mm): Pad métallisé 2 [+5V] de J1
+    @(110.3300 mm, 56.0000 mm): Pad métallisé 4 [+5V] de J1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(138.1375 mm, 101.5000 mm): Pad 5 [+5V] de U5 sur F.Cu
+    @(140.2250 mm, 100.0000 mm): Pad 1 [+5V] de C23 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(140.2250 mm, 100.0000 mm): Pad 1 [+5V] de C23 sur F.Cu
+    @(144.0500 mm, 100.0000 mm): Pad 1 [+5V] de C24 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(141.0500 mm, 60.0000 mm): Pad 1 [+5V] de C7 sur F.Cu
+    @(142.0000 mm, 74.8250 mm): Pad 1 [+5V] de R3 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(141.0500 mm, 60.0000 mm): Pad 1 [+5V] de C7 sur F.Cu
+    @(110.3300 mm, 58.5400 mm): Pad métallisé 2 [+5V] de J1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(153.0000 mm, 63.0000 mm): Pad 2 [+5V] de L1 sur F.Cu
+    @(141.0500 mm, 60.0000 mm): Pad 1 [+5V] de C7 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(156.0000 mm, 94.1750 mm): Pad 2 [+5V] de R13 sur F.Cu
+    @(144.0500 mm, 100.0000 mm): Pad 1 [+5V] de C24 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(156.0000 mm, 94.1750 mm): Pad 2 [+5V] de R13 sur F.Cu
+    @(169.5250 mm, 90.6350 mm): Pad 5 [+5V] de U7 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(166.0500 mm, 68.0000 mm): Pad 1 [+5V] de C6 sur F.Cu
+    @(153.0000 mm, 63.0000 mm): Pad 2 [+5V] de L1 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(169.5250 mm, 90.6350 mm): Pad 5 [+5V] de U7 sur F.Cu
+    @(174.4750 mm, 94.4450 mm): Pad 9 [+5V] de U7 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(174.4750 mm, 94.4450 mm): Pad 9 [+5V] de U7 sur F.Cu
+    @(189.1750 mm, 99.0000 mm): Pad 1 [+5V] de R44 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(179.9500 mm, 78.0000 mm): Pad 1 [+5V] de D7 sur F.Cu
+    @(169.5250 mm, 90.6350 mm): Pad 5 [+5V] de U7 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(179.9500 mm, 78.0000 mm): Pad 1 [+5V] de D7 sur F.Cu
+    @(166.0500 mm, 68.0000 mm): Pad 1 [+5V] de C6 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(110.0625 mm, 96.9500 mm): Pad 2 [GND] de Q5 sur F.Cu
+    @(111.0000 mm, 91.1750 mm): Pad 2 [GND] de R26 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(110.3300 mm, 17.9000 mm): Pad métallisé 34 [GND] de J1
+    @(110.3300 mm, 22.9800 mm): Pad métallisé 30 [GND] de J1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(110.3300 mm, 22.9800 mm): Pad métallisé 30 [GND] de J1
+    @(112.8700 mm, 28.0600 mm): Pad métallisé 25 [GND] de J1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(110.3300 mm, 43.3000 mm): Pad métallisé 14 [GND] de J1
+    @(110.3300 mm, 35.6800 mm): Pad métallisé 20 [GND] de J1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(112.0625 mm, 80.9500 mm): Pad 2 [GND] de Q3 sur F.Cu
+    @(113.7750 mm, 88.0000 mm): Pad 2 [GND] de C11 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(112.0625 mm, 80.9500 mm): Pad 2 [GND] de Q3 sur F.Cu
+    @(104.5000 mm, 80.9200 mm): Pad métallisé 2 [GND] de J_DVR
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(112.8700 mm, 10.2800 mm): Pad métallisé 39 [GND] de J1
+    @(110.3300 mm, 17.9000 mm): Pad métallisé 34 [GND] de J1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(112.8700 mm, 28.0600 mm): Pad métallisé 25 [GND] de J1
+    @(110.3300 mm, 35.6800 mm): Pad métallisé 20 [GND] de J1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(112.8700 mm, 48.3800 mm): Pad métallisé 9 [GND] de J1
+    @(110.3300 mm, 43.3000 mm): Pad métallisé 14 [GND] de J1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(112.8700 mm, 48.3800 mm): Pad métallisé 9 [GND] de J1
+    @(110.3300 mm, 53.4600 mm): Pad métallisé 6 [GND] de J1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(113.7750 mm, 88.0000 mm): Pad 2 [GND] de C11 sur F.Cu
+    @(117.9500 mm, 88.0000 mm): Pad 2 [GND] de C10 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(113.7750 mm, 88.0000 mm): Pad 2 [GND] de C11 sur F.Cu
+    @(111.0000 mm, 91.1750 mm): Pad 2 [GND] de R26 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(116.0000 mm, 114.0800 mm): Pad métallisé 3 [GND] de J_PI_VID
+    @(126.4600 mm, 108.5400 mm): Pad métallisé 2 [GND] de J_RCA_CAM
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(117.0000 mm, 75.1750 mm): Pad 2 [GND] de R30 sur F.Cu
+    @(120.0000 mm, 75.1750 mm): Pad 2 [GND] de R31 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(120.0000 mm, 75.1750 mm): Pad 2 [GND] de R31 sur F.Cu
+    @(123.0000 mm, 75.1750 mm): Pad 2 [GND] de R32 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(120.8625 mm, 80.0000 mm): Pad 2 [GND] de U6 sur F.Cu
+    @(120.0000 mm, 75.1750 mm): Pad 2 [GND] de R31 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(120.8625 mm, 80.0000 mm): Pad 2 [GND] de U6 sur F.Cu
+    @(126.0000 mm, 83.1750 mm): Pad 2 [GND] de R38 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(122.7750 mm, 88.0000 mm): Pad 2 [GND] de C9 sur F.Cu
+    @(117.9500 mm, 88.0000 mm): Pad 2 [GND] de C10 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(125.5250 mm, 66.9050 mm): Pad 4 [GND] de U1 sur F.Cu
+    @(134.7750 mm, 65.0000 mm): Pad 2 [GND] de C1 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(125.5250 mm, 66.9050 mm): Pad 4 [GND] de U1 sur F.Cu
+    @(110.3300 mm, 53.4600 mm): Pad métallisé 6 [GND] de J1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(126.0000 mm, 75.1750 mm): Pad 2 [GND] de R33 sur F.Cu
+    @(123.0000 mm, 75.1750 mm): Pad 2 [GND] de R32 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(126.0000 mm, 75.1750 mm): Pad 2 [GND] de R33 sur F.Cu
+    @(125.5250 mm, 66.9050 mm): Pad 4 [GND] de U1 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(126.0000 mm, 83.1750 mm): Pad 2 [GND] de R38 sur F.Cu
+    @(122.7750 mm, 88.0000 mm): Pad 2 [GND] de C9 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(126.4600 mm, 103.4600 mm): Pad métallisé 2 [GND] de J_RCA_CAM
+    @(126.4600 mm, 108.5400 mm): Pad métallisé 2 [GND] de J_RCA_CAM
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(126.4600 mm, 108.5400 mm): Pad métallisé 2 [GND] de J_RCA_CAM
+    @(131.5400 mm, 108.5400 mm): Pad métallisé 2 [GND] de J_RCA_CAM
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(130.0000 mm, 90.1750 mm): Pad 2 [GND] de R9 sur F.Cu
+    @(122.7750 mm, 88.0000 mm): Pad 2 [GND] de C9 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(131.5400 mm, 103.4600 mm): Pad métallisé 2 [GND] de J_RCA_CAM
+    @(136.0000 mm, 104.1750 mm): Pad 2 [GND] de R25 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(131.5400 mm, 103.4600 mm): Pad métallisé 2 [GND] de J_RCA_CAM
+    @(131.5400 mm, 108.5400 mm): Pad métallisé 2 [GND] de J_RCA_CAM
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(132.0000 mm, 97.6750 mm): Pad 2 [GND] de R24 sur F.Cu
+    @(134.7750 mm, 91.0000 mm): Pad 2 [GND] de C13 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(134.7750 mm, 91.0000 mm): Pad 2 [GND] de C13 sur F.Cu
+    @(130.0000 mm, 90.1750 mm): Pad 2 [GND] de R9 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(135.8625 mm, 101.5000 mm): Pad 2 [GND] de U5 sur F.Cu
+    @(136.0000 mm, 104.1750 mm): Pad 2 [GND] de R25 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(135.8625 mm, 101.5000 mm): Pad 2 [GND] de U5 sur F.Cu
+    @(132.0000 mm, 97.6750 mm): Pad 2 [GND] de R24 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(136.0000 mm, 104.1750 mm): Pad 2 [GND] de R25 sur F.Cu
+    @(141.4600 mm, 103.4600 mm): Pad métallisé 2 [GND] de J_RCA_TV
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(141.4600 mm, 103.4600 mm): Pad métallisé 2 [GND] de J_RCA_TV
+    @(141.7750 mm, 100.0000 mm): Pad 2 [GND] de C23 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(141.4600 mm, 108.5400 mm): Pad métallisé 2 [GND] de J_RCA_TV
+    @(141.4600 mm, 103.4600 mm): Pad métallisé 2 [GND] de J_RCA_TV
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(141.7750 mm, 100.0000 mm): Pad 2 [GND] de C23 sur F.Cu
+    @(145.9500 mm, 100.0000 mm): Pad 2 [GND] de C24 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(142.0000 mm, 77.1750 mm): Pad 2 [GND] de R4 sur F.Cu
+    @(142.7750 mm, 82.0000 mm): Pad 2 [GND] de C3 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(142.7750 mm, 66.0000 mm): Pad 2 [GND] de C25 sur F.Cu
+    @(134.7750 mm, 65.0000 mm): Pad 2 [GND] de C1 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(142.7750 mm, 82.0000 mm): Pad 2 [GND] de C3 sur F.Cu
+    @(139.1375 mm, 85.0750 mm): Pad 3 [GND] de U4 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(142.9500 mm, 60.0000 mm): Pad 2 [GND] de C7 sur F.Cu
+    @(142.7750 mm, 66.0000 mm): Pad 2 [GND] de C25 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(144.8625 mm, 84.4250 mm): Pad 27 [GND] de U4 sur F.Cu
+    @(144.8625 mm, 86.3750 mm): Pad 24 [GND] de U4 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(144.8625 mm, 84.4250 mm): Pad 27 [GND] de U4 sur F.Cu
+    @(142.7750 mm, 82.0000 mm): Pad 2 [GND] de C3 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(144.8625 mm, 86.3750 mm): Pad 24 [GND] de U4 sur F.Cu
+    @(144.8625 mm, 88.9750 mm): Pad 20 [GND] de U4 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(144.8625 mm, 88.9750 mm): Pad 20 [GND] de U4 sur F.Cu
+    @(144.8625 mm, 90.2750 mm): Pad 18 [GND] de U4 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(144.8625 mm, 90.9250 mm): Pad 17 [GND] de U4 sur F.Cu
+    @(144.8625 mm, 90.2750 mm): Pad 18 [GND] de U4 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(144.8625 mm, 90.9250 mm): Pad 17 [GND] de U4 sur F.Cu
+    @(145.0000 mm, 94.2250 mm): Pad 2 [GND] de C22 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(145.0000 mm, 94.2250 mm): Pad 2 [GND] de C22 sur F.Cu
+    @(145.9500 mm, 100.0000 mm): Pad 2 [GND] de C24 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(145.9500 mm, 100.0000 mm): Pad 2 [GND] de C24 sur F.Cu
+    @(146.5400 mm, 103.4600 mm): Pad métallisé 2 [GND] de J_RCA_TV
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(146.5400 mm, 103.4600 mm): Pad métallisé 2 [GND] de J_RCA_TV
+    @(146.5400 mm, 108.5400 mm): Pad métallisé 2 [GND] de J_RCA_TV
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(146.5400 mm, 108.5400 mm): Pad métallisé 2 [GND] de J_RCA_TV
+    @(152.0625 mm, 106.9500 mm): Pad 2 [GND] de D12 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(148.5250 mm, 75.0950 mm): Pad 3 [GND] de U2 sur F.Cu
+    @(148.5250 mm, 76.3650 mm): Pad 4 [GND] de U2 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(148.5250 mm, 76.3650 mm): Pad 4 [GND] de U2 sur F.Cu
+    @(148.5250 mm, 77.6350 mm): Pad 5 [GND] de U2 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(148.5250 mm, 80.1750 mm): Pad 7 [GND] de U2 sur F.Cu
+    @(148.5250 mm, 77.6350 mm): Pad 5 [GND] de U2 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(148.5250 mm, 80.1750 mm): Pad 7 [GND] de U2 sur F.Cu
+    @(144.8625 mm, 84.4250 mm): Pad 27 [GND] de U4 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(152.0625 mm, 106.9500 mm): Pad 2 [GND] de D12 sur F.Cu
+    @(157.0625 mm, 106.9500 mm): Pad 2 [GND] de D8 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(152.7750 mm, 85.0000 mm): Pad 2 [GND] de C14 sur F.Cu
+    @(156.0000 mm, 86.1750 mm): Pad 2 [GND] de R11 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(152.7750 mm, 85.0000 mm): Pad 2 [GND] de C14 sur F.Cu
+    @(148.5250 mm, 80.1750 mm): Pad 7 [GND] de U2 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(153.4750 mm, 76.3650 mm): Pad 13 [GND] de U2 sur F.Cu
+    @(148.5250 mm, 76.3650 mm): Pad 4 [GND] de U2 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(153.4750 mm, 76.3650 mm): Pad 13 [GND] de U2 sur F.Cu
+    @(160.0000 mm, 69.1750 mm): Pad 2 [GND] de R6 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(153.4750 mm, 77.6350 mm): Pad 12 [GND] de U2 sur F.Cu
+    @(153.4750 mm, 76.3650 mm): Pad 13 [GND] de U2 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(156.0000 mm, 86.1750 mm): Pad 2 [GND] de R11 sur F.Cu
+    @(159.0625 mm, 90.0000 mm): Pad 1 [GND] de D5 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(156.8625 mm, 62.0500 mm): Pad 1 [GND] de U3 sur F.Cu
+    @(159.4750 mm, 56.0000 mm): Pad 2 [GND] de C4 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(157.0625 mm, 102.9500 mm): Pad 2 [GND] de Q2 sur F.Cu
+    @(157.0625 mm, 106.9500 mm): Pad 2 [GND] de D8 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(157.0625 mm, 106.9500 mm): Pad 2 [GND] de D8 sur F.Cu
+    @(162.0000 mm, 107.1750 mm): Pad 2 [GND] de R23 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(159.0625 mm, 79.0000 mm): Pad 1 [GND] de D4 sur F.Cu
+    @(153.4750 mm, 77.6350 mm): Pad 12 [GND] de U2 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(159.0625 mm, 79.0000 mm): Pad 1 [GND] de D4 sur F.Cu
+    @(163.4750 mm, 83.0000 mm): Pad 2 [GND] de C2 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(160.0000 mm, 69.1750 mm): Pad 2 [GND] de R6 sur F.Cu
+    @(156.8625 mm, 62.0500 mm): Pad 1 [GND] de U3 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(167.9500 mm, 68.0000 mm): Pad 2 [GND] de C6 sur F.Cu
+    @(160.0000 mm, 69.1750 mm): Pad 2 [GND] de R6 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(168.9500 mm, 98.5000 mm): Pad 2 [GND] de C26 sur F.Cu
+    @(162.0000 mm, 107.1750 mm): Pad 2 [GND] de R23 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(172.7750 mm, 98.5000 mm): Pad 2 [GND] de C27 sur F.Cu
+    @(168.9500 mm, 98.5000 mm): Pad 2 [GND] de C26 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(172.7750 mm, 98.5000 mm): Pad 2 [GND] de C27 sur F.Cu
+    @(176.7750 mm, 98.5000 mm): Pad 2 [GND] de C28 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(172.7750 mm, 98.5000 mm): Pad 2 [GND] de C27 sur F.Cu
+    @(174.4750 mm, 93.1750 mm): Pad 10 [GND] de U7 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(174.8250 mm, 102.5000 mm): Pad 2 [GND] de R42 sur F.Cu
+    @(176.7750 mm, 98.5000 mm): Pad 2 [GND] de C28 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(178.2500 mm, 57.5000 mm): Pad 3 [GND] de FL1 sur F.Cu
+    @(178.2500 mm, 54.5000 mm): Pad 4 [GND] de FL1 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(178.2500 mm, 57.5000 mm): Pad 3 [GND] de FL1 sur F.Cu
+    @(188.1500 mm, 64.0000 mm): Pad 2 [GND] de D1 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(180.0625 mm, 74.9500 mm): Pad 2 [GND] de Q1 sur F.Cu
+    @(181.0000 mm, 81.1750 mm): Pad 2 [GND] de R16 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(180.0625 mm, 74.9500 mm): Pad 2 [GND] de Q1 sur F.Cu
+    @(188.1500 mm, 64.0000 mm): Pad 2 [GND] de D1 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(180.0800 mm, 110.0000 mm): Pad métallisé 2 [GND] de J_REV
+    @(174.8250 mm, 102.5000 mm): Pad 2 [GND] de R42 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(181.0000 mm, 81.1750 mm): Pad 2 [GND] de R16 sur F.Cu
+    @(174.4750 mm, 93.1750 mm): Pad 10 [GND] de U7 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(186.0000 mm, 112.5400 mm): Pad métallisé 2 [GND] de J_TV_TRIG
+    @(192.0000 mm, 112.5400 mm): Pad métallisé 2 [GND] de J_MIC
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(186.0000 mm, 112.5400 mm): Pad métallisé 2 [GND] de J_TV_TRIG
+    @(180.0800 mm, 110.0000 mm): Pad métallisé 2 [GND] de J_REV
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(186.8250 mm, 102.0000 mm): Pad 2 [GND] de R40 sur F.Cu
+    @(186.9500 mm, 105.0000 mm): Pad 2 [GND] de C32 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(186.9500 mm, 105.0000 mm): Pad 2 [GND] de C32 sur F.Cu
+    @(186.0000 mm, 112.5400 mm): Pad métallisé 2 [GND] de J_TV_TRIG
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(192.0000 mm, 112.5400 mm): Pad métallisé 2 [GND] de J_MIC
+    @(196.0000 mm, 104.6200 mm): Pad métallisé 4 [GND] de J_TEL
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(195.0000 mm, 62.0000 mm): Pad métallisé 1 [GND] de J_CAR_3P
+    @(188.1500 mm, 64.0000 mm): Pad 2 [GND] de D1 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(160.0000 mm, 86.8250 mm): Pad 1 [LED_IBUS_ANODE] de R14 sur F.Cu
+    @(160.9375 mm, 90.0000 mm): Pad 2 [LED_IBUS_ANODE] de D5 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(112.2250 mm, 88.0000 mm): Pad 1 [IBUS_5V] de C11 sur F.Cu
+    @(116.0500 mm, 88.0000 mm): Pad 1 [IBUS_5V] de C10 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(116.0500 mm, 88.0000 mm): Pad 1 [IBUS_5V] de C10 sur F.Cu
+    @(148.5250 mm, 73.8250 mm): Pad 2 [IBUS_5V] de U2 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(153.4750 mm, 72.5550 mm): Pad 16 [IBUS_5V] de U2 sur F.Cu
+    @(148.5250 mm, 73.8250 mm): Pad 2 [IBUS_5V] de U2 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(159.0625 mm, 74.0500 mm): Pad 1 [IBUS_5V] de D3 sur F.Cu
+    @(153.4750 mm, 72.5550 mm): Pad 16 [IBUS_5V] de U2 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(160.0000 mm, 85.1750 mm): Pad 2 [IBUS_5V] de R14 sur F.Cu
+    @(159.0625 mm, 74.0500 mm): Pad 1 [IBUS_5V] de D3 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(112.8700 mm, 38.2200 mm): Pad métallisé 17 [+3V3] de J1
+    @(112.8700 mm, 58.5400 mm): Pad métallisé 1 [+3V3] de J1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(112.8700 mm, 58.5400 mm): Pad métallisé 1 [+3V3] de J1
+    @(122.0000 mm, 63.8250 mm): Pad 1 [+3V3] de R1 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(122.0000 mm, 63.8250 mm): Pad 1 [+3V3] de R1 sur F.Cu
+    @(130.4750 mm, 63.0950 mm): Pad 8 [+3V3] de U1 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(122.0000 mm, 67.8250 mm): Pad 1 [+3V3] de R2 sur F.Cu
+    @(122.0000 mm, 63.8250 mm): Pad 1 [+3V3] de R1 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(132.6500 mm, 70.0000 mm): Pad 2 [+3V3] de JP1 sur F.Cu
+    @(133.2250 mm, 65.0000 mm): Pad 1 [+3V3] de C1 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(133.2250 mm, 65.0000 mm): Pad 1 [+3V3] de C1 sur F.Cu
+    @(130.4750 mm, 63.0950 mm): Pad 8 [+3V3] de U1 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(134.0000 mm, 84.0625 mm): Pad 1 [+3V3] de L2 sur F.Cu
+    @(132.6500 mm, 70.0000 mm): Pad 2 [+3V3] de JP1 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(139.1375 mm, 83.7750 mm): Pad 1 [+3V3] de U4 sur F.Cu
+    @(134.0000 mm, 84.0625 mm): Pad 1 [+3V3] de L2 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(144.8625 mm, 83.7750 mm): Pad 28 [+3V3] de U4 sur F.Cu
+    @(139.1375 mm, 83.7750 mm): Pad 1 [+3V3] de U4 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(144.8625 mm, 83.7750 mm): Pad 28 [+3V3] de U4 sur F.Cu
+    @(151.2250 mm, 85.0000 mm): Pad 1 [+3V3] de C14 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(154.0000 mm, 98.8250 mm): Pad 1 [+3V3] de R19 sur F.Cu
+    @(151.2250 mm, 85.0000 mm): Pad 1 [+3V3] de C14 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(133.2250 mm, 87.0000 mm): Pad 1 [DAC_CAPP] de C12 sur F.Cu
+    @(139.1375 mm, 84.4250 mm): Pad 2 [DAC_CAPP] de U4 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(134.7750 mm, 87.0000 mm): Pad 2 [DAC_CAPM] de C12 sur F.Cu
+    @(139.1375 mm, 85.7250 mm): Pad 4 [DAC_CAPM] de U4 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(133.2250 mm, 91.0000 mm): Pad 1 [DAC_VNEG] de C13 sur F.Cu
+    @(139.1375 mm, 86.3750 mm): Pad 5 [DAC_VNEG] de U4 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(139.1375 mm, 87.0250 mm): Pad 6 [DAC_OUTL_RAW] de U4 sur F.Cu
+    @(148.0000 mm, 98.8250 mm): Pad 1 [DAC_OUTL_RAW] de R17 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(139.1375 mm, 87.6750 mm): Pad 7 [DAC_OUTR_RAW] de U4 sur F.Cu
+    @(151.0000 mm, 98.8250 mm): Pad 1 [DAC_OUTR_RAW] de R18 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(134.0000 mm, 81.9375 mm): Pad 2 [AVDD_3V3] de L2 sur F.Cu
+    @(139.1375 mm, 88.3250 mm): Pad 8 [AVDD_3V3] de U4 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(139.1375 mm, 88.3250 mm): Pad 8 [AVDD_3V3] de U4 sur F.Cu
+    @(151.0500 mm, 88.5000 mm): Pad 1 [AVDD_3V3] de C15 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(151.2250 mm, 92.0000 mm): Pad 1 [AVDD_3V3] de C16 sur F.Cu
+    @(151.0500 mm, 88.5000 mm): Pad 1 [AVDD_3V3] de C15 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(130.0000 mm, 94.2250 mm): Pad 2 [AGND] de C17 sur F.Cu
+    @(133.0000 mm, 94.2250 mm): Pad 2 [AGND] de C18 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(133.0000 mm, 94.2250 mm): Pad 2 [AGND] de C18 sur F.Cu
+    @(139.1375 mm, 88.9750 mm): Pad 9 [AGND] de U4 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(139.1375 mm, 88.9750 mm): Pad 9 [AGND] de U4 sur F.Cu
+    @(142.0000 mm, 94.2250 mm): Pad 2 [AGND] de C21 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(144.8625 mm, 92.2250 mm): Pad 15 [AGND] de U4 sur F.Cu
+    @(144.8625 mm, 91.5750 mm): Pad 16 [AGND] de U4 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(144.8625 mm, 92.2250 mm): Pad 15 [AGND] de U4 sur F.Cu
+    @(142.0000 mm, 94.2250 mm): Pad 2 [AGND] de C21 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(152.7750 mm, 92.0000 mm): Pad 2 [AGND] de C16 sur F.Cu
+    @(152.9500 mm, 88.5000 mm): Pad 2 [AGND] de C15 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(152.7750 mm, 92.0000 mm): Pad 2 [AGND] de C16 sur F.Cu
+    @(144.8625 mm, 92.2250 mm): Pad 15 [AGND] de U4 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(152.9500 mm, 88.5000 mm): Pad 2 [AGND] de C15 sur F.Cu
+    @(192.4600 mm, 80.0000 mm): Pad métallisé 3 [AGND] de J_CAR_6P
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(195.0000 mm, 80.0000 mm): Pad métallisé 6 [AGND] de J_CAR_6P
+    @(192.4600 mm, 80.0000 mm): Pad métallisé 3 [AGND] de J_CAR_6P
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(139.1375 mm, 89.6250 mm): Pad 10 [DAC_VCOM] de U4 sur F.Cu
+    @(142.0000 mm, 95.7750 mm): Pad 1 [DAC_VCOM] de C21 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(112.8700 mm, 56.0000 mm): Pad métallisé 3 [GPIO2/SDA1] de J1
+    @(139.1375 mm, 90.2750 mm): Pad 11 [GPIO2/SDA1] de U4 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(112.8700 mm, 53.4600 mm): Pad métallisé 5 [GPIO3/SCL1] de J1
+    @(139.1375 mm, 90.9250 mm): Pad 12 [GPIO3/SCL1] de U4 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(110.3300 mm, 45.8400 mm): Pad métallisé 12 [GPIO18/PCM.CLK] de J1
+    @(144.8625 mm, 88.3250 mm): Pad 21 [GPIO18/PCM.CLK] de U4 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(110.3300 mm, 10.2800 mm): Pad métallisé 40 [GPIO21/PCM.DOUT] de J1
+    @(144.8625 mm, 87.6750 mm): Pad 22 [GPIO21/PCM.DOUT] de U4 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(112.8700 mm, 15.3600 mm): Pad métallisé 35 [GPIO19/PCM.FS] de J1
+    @(144.8625 mm, 87.0250 mm): Pad 23 [GPIO19/PCM.FS] de U4 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(144.8625 mm, 85.7250 mm): Pad 25 [DAC_XSMT] de U4 sur F.Cu
+    @(154.0000 mm, 97.1750 mm): Pad 2 [DAC_XSMT] de R19 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(144.8625 mm, 85.0750 mm): Pad 26 [DAC_LDOO] de U4 sur F.Cu
+    @(145.0000 mm, 95.7750 mm): Pad 1 [DAC_LDOO] de C22 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(117.6950 mm, 71.0000 mm): Pad 1 [+12V_IN] de SW_BENCH sur F.Cu
+    @(141.2250 mm, 82.0000 mm): Pad 1 [+12V_IN] de C3 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(148.5250 mm, 72.5550 mm): Pad 1 [+12V_IN] de U2 sur F.Cu
+    @(153.4750 mm, 73.8250 mm): Pad 15 [+12V_IN] de U2 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(148.5250 mm, 72.5550 mm): Pad 1 [+12V_IN] de U2 sur F.Cu
+    @(141.2250 mm, 82.0000 mm): Pad 1 [+12V_IN] de C3 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(153.4750 mm, 73.8250 mm): Pad 15 [+12V_IN] de U2 sur F.Cu
+    @(156.8625 mm, 63.9500 mm): Pad 3 [+12V_IN] de U3 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(160.5250 mm, 83.0000 mm): Pad 1 [+12V_IN] de C2 sur F.Cu
+    @(153.4750 mm, 73.8250 mm): Pad 15 [+12V_IN] de U2 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(171.7500 mm, 57.5000 mm): Pad 2 [+12V_IN] de FL1 sur F.Cu
+    @(156.8625 mm, 63.9500 mm): Pad 3 [+12V_IN] de U3 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(126.3050 mm, 71.0000 mm): Pad 2 [BENCH_PULLUP] de SW_BENCH sur F.Cu
+    @(156.0000 mm, 91.9125 mm): Pad 1 [BENCH_PULLUP] de R12 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(111.0000 mm, 92.8250 mm): Pad 1 [FAN_GATE] de R26 sur F.Cu
+    @(110.0625 mm, 95.0500 mm): Pad 1 [FAN_GATE] de Q5 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(115.0000 mm, 91.1750 mm): Pad 2 [FAN_GATE] de R27 sur F.Cu
+    @(111.0000 mm, 92.8250 mm): Pad 1 [FAN_GATE] de R26 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(162.0000 mm, 105.8250 mm): Pad 1 [REV_12V_IN] de R22 sur F.Cu
+    @(175.0000 mm, 110.0000 mm): Pad métallisé 1 [REV_12V_IN] de J_REV
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(152.0625 mm, 101.0500 mm): Pad 1 [REV_SENSE_3V3] de D11 sur F.Cu
+    @(157.0625 mm, 105.0500 mm): Pad 1 [REV_SENSE_3V3] de D8 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(157.0625 mm, 105.0500 mm): Pad 1 [REV_SENSE_3V3] de D8 sur F.Cu
+    @(162.0000 mm, 108.8250 mm): Pad 1 [REV_SENSE_3V3] de R23 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(161.0625 mm, 100.5500 mm): Pad 1 [REV_SENSE_3V3] de D9 sur F.Cu
+    @(157.0625 mm, 105.0500 mm): Pad 1 [REV_SENSE_3V3] de D8 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(139.0000 mm, 95.9500 mm): Pad 1 [DAC_FLT_R] de C20 sur F.Cu
+    @(133.0000 mm, 95.7750 mm): Pad 1 [DAC_FLT_R] de C18 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(151.0000 mm, 97.1750 mm): Pad 2 [DAC_FLT_R] de R18 sur F.Cu
+    @(139.0000 mm, 95.9500 mm): Pad 1 [DAC_FLT_R] de C20 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(136.0000 mm, 94.0500 mm): Pad 2 [PI_AUDIO_L] de C19 sur F.Cu
+    @(164.0000 mm, 88.0625 mm): Pad 1 [PI_AUDIO_L] de FB3 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(164.0000 mm, 85.9375 mm): Pad 2 [Net-(C29-Pad1)] de FB3 sur F.Cu
+    @(164.0000 mm, 91.7750 mm): Pad 1 [Net-(C29-Pad1)] de C29 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(142.0000 mm, 73.1750 mm): Pad 2 [BUCK_FB] de R3 sur F.Cu
+    @(142.0000 mm, 78.8250 mm): Pad 1 [BUCK_FB] de R4 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(159.1375 mm, 63.9500 mm): Pad 4 [BUCK_FB] de U3 sur F.Cu
+    @(142.0000 mm, 73.1750 mm): Pad 2 [BUCK_FB] de R3 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(114.0000 mm, 76.8250 mm): Pad 1 [VRAW] de R29 sur F.Cu
+    @(117.0000 mm, 84.8250 mm): Pad 1 [VRAW] de R35 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(115.0000 mm, 71.8250 mm): Pad 1 [VRAW] de R28 sur F.Cu
+    @(114.0000 mm, 76.8250 mm): Pad 1 [VRAW] de R29 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(115.0000 mm, 71.8250 mm): Pad 1 [VRAW] de R28 sur F.Cu
+    @(175.0000 mm, 62.6000 mm): Pad 2 [VRAW] de D2 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(175.0000 mm, 62.6000 mm): Pad 2 [VRAW] de D2 sur F.Cu
+    @(183.8500 mm, 64.0000 mm): Pad 1 [VRAW] de D1 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(183.8500 mm, 64.0000 mm): Pad 1 [VRAW] de D1 sur F.Cu
+    @(186.0000 mm, 51.6000 mm): Pad 2 [VRAW] de F1 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(183.8500 mm, 64.0000 mm): Pad 1 [VRAW] de D1 sur F.Cu
+    @(181.0625 mm, 98.9500 mm): Pad 2 [VRAW] de Q4 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(114.0000 mm, 75.1750 mm): Pad 2 [DVR_SENSE] de R29 sur F.Cu
+    @(104.5000 mm, 75.3050 mm): Pad 2 [DVR_SENSE] de SW_DVR_CFG sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(114.0000 mm, 84.8250 mm): Pad 1 [DVR_SENSE] de R34 sur F.Cu
+    @(117.0000 mm, 76.8250 mm): Pad 1 [DVR_SENSE] de R30 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(117.0000 mm, 76.8250 mm): Pad 1 [DVR_SENSE] de R30 sur F.Cu
+    @(114.0000 mm, 75.1750 mm): Pad 2 [DVR_SENSE] de R29 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(123.1375 mm, 80.0000 mm): Pad 5 [DVR_SENSE] de U6 sur F.Cu
+    @(117.0000 mm, 76.8250 mm): Pad 1 [DVR_SENSE] de R30 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(147.0000 mm, 63.0000 mm): Pad 1 [SW_NODE] de L1 sur F.Cu
+    @(156.8625 mm, 63.0000 mm): Pad 2 [SW_NODE] de U3 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(156.8625 mm, 63.0000 mm): Pad 2 [SW_NODE] de U3 sur F.Cu
+    @(165.7750 mm, 52.0000 mm): Pad 2 [SW_NODE] de C5 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(150.0000 mm, 68.1750 mm): Pad 2 [BUCK_EN] de R5 sur F.Cu
+    @(160.0000 mm, 70.8250 mm): Pad 1 [BUCK_EN] de R6 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(159.1375 mm, 63.0000 mm): Pad 5 [BUCK_EN] de U3 sur F.Cu
+    @(156.5250 mm, 56.0000 mm): Pad 1 [BUCK_EN] de C4 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(160.0000 mm, 70.8250 mm): Pad 1 [BUCK_EN] de R6 sur F.Cu
+    @(159.1375 mm, 63.0000 mm): Pad 5 [BUCK_EN] de U3 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(159.1375 mm, 62.0500 mm): Pad 6 [BOOT_NODE] de U3 sur F.Cu
+    @(164.2250 mm, 52.0000 mm): Pad 1 [BOOT_NODE] de C5 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(182.0000 mm, 101.1750 mm): Pad 2 [Net-(R39-Pad2)] de R39 sur F.Cu
+    @(185.1750 mm, 102.0000 mm): Pad 1 [Net-(R39-Pad2)] de R40 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(186.0000 mm, 54.4000 mm): Pad 1 [KL30] de F1 sur F.Cu
+    @(195.0000 mm, 64.5400 mm): Pad métallisé 2 [KL30] de J_CAR_3P
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(130.0000 mm, 84.4625 mm): Pad 1 [IBUS] de R7 sur F.Cu
+    @(121.2250 mm, 88.0000 mm): Pad 1 [IBUS] de C9 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(156.0000 mm, 90.0875 mm): Pad 2 [IBUS] de R12 sur F.Cu
+    @(130.0000 mm, 84.4625 mm): Pad 1 [IBUS] de R7 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(156.0000 mm, 90.0875 mm): Pad 2 [IBUS] de R12 sur F.Cu
+    @(195.0000 mm, 67.0800 mm): Pad métallisé 3 [IBUS] de J_CAR_3P
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(112.0625 mm, 79.0500 mm): Pad 1 [DVR_COMP_OUT] de Q3 sur F.Cu
+    @(114.0000 mm, 83.1750 mm): Pad 2 [DVR_COMP_OUT] de R34 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(114.0000 mm, 83.1750 mm): Pad 2 [DVR_COMP_OUT] de R34 sur F.Cu
+    @(120.8625 mm, 79.0500 mm): Pad 1 [DVR_COMP_OUT] de U6 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(123.0000 mm, 84.8250 mm): Pad 1 [DVR_COMP_OUT] de R37 sur F.Cu
+    @(120.8625 mm, 79.0500 mm): Pad 1 [DVR_COMP_OUT] de U6 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(113.9375 mm, 80.0000 mm): Pad 3 [DVR_GATE_PULL] de Q3 sur F.Cu
+    @(120.0000 mm, 83.1750 mm): Pad 2 [DVR_GATE_PULL] de R36 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(129.0000 mm, 106.0000 mm): Pad métallisé 1 [CAM_VID] de J_RCA_CAM
+    @(135.8625 mm, 100.5500 mm): Pad 1 [CAM_VID] de U5 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(110.3300 mm, 40.7600 mm): Pad métallisé 16 [GPIO23] de J1
+    @(182.0000 mm, 102.8250 mm): Pad 1 [GPIO23] de R39 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(169.5250 mm, 88.0950 mm): Pad 3 [Net-(FB2-Pad1)] de U7 sur F.Cu
+    @(181.0000 mm, 93.0625 mm): Pad 1 [Net-(FB2-Pad1)] de FB2 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(181.0000 mm, 90.9375 mm): Pad 2 [Net-(C31-Pad1)] de FB2 sur F.Cu
+    @(186.0000 mm, 92.9500 mm): Pad 1 [Net-(C31-Pad1)] de C31 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(117.0000 mm, 83.1750 mm): Pad 2 [DVR_PMOS_GATE] de R35 sur F.Cu
+    @(120.0000 mm, 84.8250 mm): Pad 1 [DVR_PMOS_GATE] de R36 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(120.0000 mm, 84.8250 mm): Pad 1 [DVR_PMOS_GATE] de R36 sur F.Cu
+    @(181.0625 mm, 97.0500 mm): Pad 1 [DVR_PMOS_GATE] de Q4 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(104.5000 mm, 86.0000 mm): Pad métallisé 1 [DVR_12V_OUT] de J_DVR
+    @(182.9375 mm, 98.0000 mm): Pad 3 [DVR_12V_OUT] de Q4 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(110.3300 mm, 33.1400 mm): Pad métallisé 22 [GPIO25] de J1
+    @(161.0625 mm, 102.4500 mm): Pad 2 [GPIO25] de D9 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(157.0625 mm, 101.0500 mm): Pad 1 [TV_TRIG_GATE] de Q2 sur F.Cu
+    @(136.0000 mm, 105.8250 mm): Pad 1 [TV_TRIG_GATE] de R25 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(162.9375 mm, 101.5000 mm): Pad 3 [TV_TRIG_GATE] de D9 sur F.Cu
+    @(157.0625 mm, 101.0500 mm): Pad 1 [TV_TRIG_GATE] de Q2 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(171.7500 mm, 54.5000 mm): Pad 1 [VFILT] de FL1 sur F.Cu
+    @(175.0000 mm, 69.4000 mm): Pad 1 [VFILT] de D2 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(186.0000 mm, 87.0500 mm): Pad 2 [Net-(C30-Pad2)] de C30 sur F.Cu
+    @(196.0000 mm, 97.0000 mm): Pad métallisé 1 [Net-(C30-Pad2)] de J_TEL
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(186.0000 mm, 91.0500 mm): Pad 2 [Net-(C31-Pad2)] de C31 sur F.Cu
+    @(196.0000 mm, 99.5400 mm): Pad métallisé 2 [Net-(C31-Pad2)] de J_TEL
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(189.1750 mm, 102.0000 mm): Pad 1 [Net-(C33-Pad1)] de R45 sur F.Cu
+    @(190.0000 mm, 106.9500 mm): Pad 1 [Net-(C33-Pad1)] de C33 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(196.0000 mm, 102.0800 mm): Pad métallisé 3 [Net-(C33-Pad1)] de J_TEL
+    @(189.1750 mm, 102.0000 mm): Pad 1 [Net-(C33-Pad1)] de R45 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(150.0000 mm, 69.8250 mm): Pad 1 [PWR_KEEP_ALIVE] de R5 sur F.Cu
+    @(160.9375 mm, 75.0000 mm): Pad 3 [PWR_KEEP_ALIVE] de D3 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(104.5000 mm, 66.6950 mm): Pad 5 [Net-(R32-Pad1)] de SW_DVR_CFG sur F.Cu
+    @(123.0000 mm, 76.8250 mm): Pad 1 [Net-(R32-Pad1)] de R32 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(115.0000 mm, 70.1750 mm): Pad 2 [DVR_VCC_5V] de R28 sur F.Cu
+    @(123.1375 mm, 79.0500 mm): Pad 6 [DVR_VCC_5V] de U6 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(123.1375 mm, 79.0500 mm): Pad 6 [DVR_VCC_5V] de U6 sur F.Cu
+    @(141.2250 mm, 66.0000 mm): Pad 1 [DVR_VCC_5V] de C25 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(123.1375 mm, 79.0500 mm): Pad 6 [DVR_VCC_5V] de U6 sur F.Cu
+    @(152.0625 mm, 105.0500 mm): Pad 1 [DVR_VCC_5V] de D12 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(130.4750 mm, 64.3650 mm): Pad 7 [Net-(JP1-Pad1)] de U1 sur F.Cu
+    @(131.3500 mm, 70.0000 mm): Pad 1 [Net-(JP1-Pad1)] de JP1 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(112.8700 mm, 17.9000 mm): Pad métallisé 33 [GPIO13/PWM1] de J1
+    @(162.0000 mm, 104.1750 mm): Pad 2 [GPIO13/PWM1] de R22 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(130.0000 mm, 87.8250 mm): Pad 1 [TH3122_RXD] de R8 sur F.Cu
+    @(153.4750 mm, 80.1750 mm): Pad 10 [TH3122_RXD] de U2 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(130.0000 mm, 86.1750 mm): Pad 2 [GPIO15/RXD0] de R8 sur F.Cu
+    @(110.3300 mm, 48.3800 mm): Pad métallisé 10 [GPIO15/RXD0] de J1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(130.0000 mm, 91.8250 mm): Pad 1 [GPIO15/RXD0] de R9 sur F.Cu
+    @(130.0000 mm, 86.1750 mm): Pad 2 [GPIO15/RXD0] de R8 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(116.0000 mm, 116.6200 mm): Pad métallisé 4 [PI_VID] de J_PI_VID
+    @(135.8625 mm, 102.4500 mm): Pad 3 [PI_VID] de U5 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(138.1375 mm, 102.4500 mm): Pad 4 [TV_VID_OUT] de U5 sur F.Cu
+    @(144.0000 mm, 106.0000 mm): Pad métallisé 1 [TV_VID_OUT] de J_RCA_TV
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(132.0000 mm, 99.3250 mm): Pad 1 [VID_SEL] de R24 sur F.Cu
+    @(138.1375 mm, 100.5500 mm): Pad 6 [VID_SEL] de U5 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(138.1375 mm, 100.5500 mm): Pad 6 [VID_SEL] de U5 sur F.Cu
+    @(153.9375 mm, 102.0000 mm): Pad 3 [VID_SEL] de D11 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(110.3300 mm, 25.5200 mm): Pad métallisé 28 [ID_SCL] de J1
+    @(122.0000 mm, 66.1750 mm): Pad 2 [ID_SCL] de R2 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(122.0000 mm, 66.1750 mm): Pad 2 [ID_SCL] de R2 sur F.Cu
+    @(130.4750 mm, 65.6350 mm): Pad 6 [ID_SCL] de U1 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(181.0000 mm, 86.9375 mm): Pad 2 [Net-(C30-Pad1)] de FB1 sur F.Cu
+    @(186.0000 mm, 88.9500 mm): Pad 1 [Net-(C30-Pad1)] de C30 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(164.0000 mm, 90.2250 mm): Pad 2 [Net-(C29-Pad2)] de C29 sur F.Cu
+    @(164.0000 mm, 95.8250 mm): Pad 1 [Net-(C29-Pad2)] de R43 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(112.8700 mm, 12.8200 mm): Pad métallisé 37 [GPIO26] de J1
+    @(123.0000 mm, 83.1750 mm): Pad 2 [GPIO26] de R37 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(123.0000 mm, 83.1750 mm): Pad 2 [GPIO26] de R37 sur F.Cu
+    @(126.0000 mm, 84.8250 mm): Pad 1 [GPIO26] de R38 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(112.8700 mm, 45.8400 mm): Pad métallisé 11 [GPIO17] de J1
+    @(170.0000 mm, 103.3250 mm): Pad 1 [GPIO17] de R41 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(170.0000 mm, 101.6750 mm): Pad 2 [Net-(R41-Pad2)] de R41 sur F.Cu
+    @(173.1750 mm, 102.5000 mm): Pad 1 [Net-(R41-Pad2)] de R42 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(174.4750 mm, 90.6350 mm): Pad 12 [Net-(R41-Pad2)] de U7 sur F.Cu
+    @(170.0000 mm, 101.6750 mm): Pad 2 [Net-(R41-Pad2)] de R41 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(158.9375 mm, 102.0000 mm): Pad 3 [CAM_TRIG_GND] de Q2 sur F.Cu
+    @(186.0000 mm, 110.0000 mm): Pad métallisé 1 [CAM_TRIG_GND] de J_TV_TRIG
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(169.5250 mm, 85.5550 mm): Pad 1 [Net-(FB1-Pad1)] de U7 sur F.Cu
+    @(181.0000 mm, 89.0625 mm): Pad 1 [Net-(FB1-Pad1)] de FB1 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(169.5250 mm, 94.4450 mm): Pad 8 [Net-(C28-Pad1)] de U7 sur F.Cu
+    @(175.2250 mm, 98.5000 mm): Pad 1 [Net-(C28-Pad1)] de C28 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(156.0000 mm, 95.8250 mm): Pad 1 [LED_5V_ANODE] de R13 sur F.Cu
+    @(160.9375 mm, 79.0000 mm): Pad 2 [LED_5V_ANODE] de D4 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(185.0500 mm, 105.0000 mm): Pad 1 [Net-(C32-Pad1)] de C32 sur F.Cu
+    @(190.8250 mm, 102.0000 mm): Pad 2 [Net-(C32-Pad1)] de R45 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(190.8250 mm, 102.0000 mm): Pad 2 [Net-(C32-Pad1)] de R45 sur F.Cu
+    @(190.8250 mm, 99.0000 mm): Pad 2 [Net-(C32-Pad1)] de R44 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(136.0000 mm, 95.9500 mm): Pad 1 [DAC_FLT_L] de C19 sur F.Cu
+    @(130.0000 mm, 95.7750 mm): Pad 1 [DAC_FLT_L] de C17 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(148.0000 mm, 97.1750 mm): Pad 2 [DAC_FLT_L] de R17 sur F.Cu
+    @(136.0000 mm, 95.9500 mm): Pad 1 [DAC_FLT_L] de C19 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(111.9375 mm, 96.0000 mm): Pad 3 [FAN_NEG] de Q5 sur F.Cu
+    @(104.5000 mm, 96.5000 mm): Pad métallisé 2 [FAN_NEG] de J_FAN
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(112.0500 mm, 100.0000 mm): Pad 2 [FAN_NEG] de D10 sur F.Cu
+    @(111.9375 mm, 96.0000 mm): Pad 3 [FAN_NEG] de Q5 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(164.0000 mm, 94.1750 mm): Pad 2 [Net-(R43-Pad2)] de R43 sur F.Cu
+    @(169.5250 mm, 93.1750 mm): Pad 7 [Net-(R43-Pad2)] de U7 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(180.0625 mm, 73.0500 mm): Pad 1 [RELAY_CTRL] de Q1 sur F.Cu
+    @(112.8700 mm, 43.3000 mm): Pad métallisé 13 [RELAY_CTRL] de J1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(181.0000 mm, 82.8250 mm): Pad 1 [RELAY_CTRL] de R16 sur F.Cu
+    @(180.0625 mm, 73.0500 mm): Pad 1 [RELAY_CTRL] de Q1 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(181.9375 mm, 74.0000 mm): Pad 3 [RELAY_COIL_NEG] de Q1 sur F.Cu
+    @(182.0500 mm, 78.0000 mm): Pad 2 [RELAY_COIL_NEG] de D7 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(156.0000 mm, 82.1750 mm): Pad 2 [GPIO16] de R10 sur F.Cu
+    @(110.3300 mm, 15.3600 mm): Pad métallisé 36 [GPIO16] de J1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(156.0000 mm, 87.8250 mm): Pad 1 [GPIO16] de R11 sur F.Cu
+    @(156.0000 mm, 82.1750 mm): Pad 2 [GPIO16] de R10 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(120.8625 mm, 80.9500 mm): Pad 3 [Net-(U6-Pad3)] de U6 sur F.Cu
+    @(123.1375 mm, 80.9500 mm): Pad 4 [Net-(U6-Pad3)] de U6 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(101.9600 mm, 75.3050 mm): Pad 1 [Net-(SW_DVR_CFG-Pad1)] de SW_DVR_CFG sur F.Cu
+    @(107.0400 mm, 75.3050 mm): Pad 3 [Net-(SW_DVR_CFG-Pad1)] de SW_DVR_CFG sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(107.0400 mm, 66.6950 mm): Pad 4 [Net-(R33-Pad1)] de SW_DVR_CFG sur F.Cu
+    @(126.0000 mm, 76.8250 mm): Pad 1 [Net-(R33-Pad1)] de R33 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(101.9600 mm, 66.6950 mm): Pad 6 [Net-(R31-Pad1)] de SW_DVR_CFG sur F.Cu
+    @(120.0000 mm, 76.8250 mm): Pad 1 [Net-(R31-Pad1)] de R31 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(130.0000 mm, 81.5375 mm): Pad 2 [TH3122_IBUS] de R7 sur F.Cu
+    @(148.5250 mm, 78.9050 mm): Pad 6 [TH3122_IBUS] de U2 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(110.3300 mm, 20.4400 mm): Pad métallisé 32 [GPIO12/PWM0] de J1
+    @(115.0000 mm, 92.8250 mm): Pad 1 [GPIO12/PWM0] de R27 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(153.4750 mm, 81.4450 mm): Pad 9 [TH3122_SEN_STA] de U2 sur F.Cu
+    @(156.0000 mm, 83.8250 mm): Pad 1 [TH3122_SEN_STA] de R10 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(110.3300 mm, 50.9200 mm): Pad métallisé 8 [GPIO14/TXD0] de J1
+    @(153.4750 mm, 78.9050 mm): Pad 11 [GPIO14/TXD0] de U2 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(112.8700 mm, 40.7600 mm): Pad métallisé 15 [GPIO22] de J1
+    @(159.0625 mm, 75.9500 mm): Pad 2 [GPIO22] de D3 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(190.0000 mm, 105.0500 mm): Pad 2 [Net-(C33-Pad2)] de C33 sur F.Cu
+    @(192.0000 mm, 110.0000 mm): Pad métallisé 1 [Net-(C33-Pad2)] de J_MIC
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(112.8700 mm, 25.5200 mm): Pad métallisé 27 [ID_SDA] de J1
+    @(122.0000 mm, 62.1750 mm): Pad 2 [ID_SDA] de R1 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(122.0000 mm, 62.1750 mm): Pad 2 [ID_SDA] de R1 sur F.Cu
+    @(130.4750 mm, 66.9050 mm): Pad 5 [ID_SDA] de U1 sur F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(110.3300 mm, 38.2200 mm): Pad métallisé 18 [GPIO24] de J1
+    @(152.0625 mm, 102.9500 mm): Pad 2 [GPIO24] de D11 sur F.Cu
+
+** Found 262 Footprint errors **
+[footprint_symbol_field_mismatch]: Le champ 'Description' diffère (PCB: '', Schématique 'Unpolarized capacitor, small symbol')
+    Local override; warning
+    @(134.0000 mm, 65.0000 mm): Empreinte C1
+[footprint_symbol_field_mismatch]: Le champ 'Description' diffère (PCB: '', Schématique 'Unpolarized capacitor, small symbol')
+    Local override; warning
+    @(162.0000 mm, 83.0000 mm): Empreinte C2
+[net_conflict]: Le net (+12V_IN) du pad ne correspond pas à celui donné par la schématique (/+12V_IN)
+    Local override; warning
+    @(160.5250 mm, 83.0000 mm): Pad 1 [+12V_IN] de C2 sur F.Cu
+[footprint_symbol_field_mismatch]: Le champ 'Description' diffère (PCB: '', Schématique 'Unpolarized capacitor, small symbol')
+    Local override; warning
+    @(142.0000 mm, 82.0000 mm): Empreinte C3
+[net_conflict]: Le net (+12V_IN) du pad ne correspond pas à celui donné par la schématique (/+12V_IN)
+    Local override; warning
+    @(141.2250 mm, 82.0000 mm): Pad 1 [+12V_IN] de C3 sur F.Cu
+[footprint_symbol_field_mismatch]: Le champ 'Description' diffère (PCB: '', Schématique 'Unpolarized capacitor, small symbol')
+    Local override; warning
+    @(158.0000 mm, 56.0000 mm): Empreinte C4
+[net_conflict]: Le net (BUCK_EN) du pad ne correspond pas à celui donné par la schématique (/BUCK_EN)
+    Local override; warning
+    @(156.5250 mm, 56.0000 mm): Pad 1 [BUCK_EN] de C4 sur F.Cu
+[footprint_symbol_field_mismatch]: Le champ 'Description' diffère (PCB: '', Schématique 'Unpolarized capacitor, small symbol')
+    Local override; warning
+    @(165.0000 mm, 52.0000 mm): Empreinte C5
+[net_conflict]: Le net (BOOT_NODE) du pad ne correspond pas à celui donné par la schématique (/BOOT_NODE)
+    Local override; warning
+    @(164.2250 mm, 52.0000 mm): Pad 1 [BOOT_NODE] de C5 sur F.Cu
+[net_conflict]: Le net (SW_NODE) du pad ne correspond pas à celui donné par la schématique (/SW_NODE)
+    Local override; warning
+    @(165.7750 mm, 52.0000 mm): Pad 2 [SW_NODE] de C5 sur F.Cu
+[footprint_symbol_field_mismatch]: Le champ 'Description' diffère (PCB: '', Schématique 'Unpolarized capacitor, small symbol')
+    Local override; warning
+    @(167.0000 mm, 68.0000 mm): Empreinte C6
+[footprint_symbol_field_mismatch]: Le champ 'Description' diffère (PCB: '', Schématique 'Unpolarized capacitor, small symbol')
+    Local override; warning
+    @(142.0000 mm, 60.0000 mm): Empreinte C7
+[footprint_symbol_field_mismatch]: Le champ 'Description' diffère (PCB: '', Schématique 'Unpolarized capacitor, small symbol')
+    Local override; warning
+    @(122.0000 mm, 88.0000 mm): Empreinte C9
+[net_conflict]: Le net (IBUS) du pad ne correspond pas à celui donné par la schématique (/IBUS)
+    Local override; warning
+    @(121.2250 mm, 88.0000 mm): Pad 1 [IBUS] de C9 sur F.Cu
+[footprint_symbol_field_mismatch]: Le champ 'Description' diffère (PCB: '', Schématique 'Unpolarized capacitor, small symbol')
+    Local override; warning
+    @(117.0000 mm, 88.0000 mm): Empreinte C10
+[net_conflict]: Le net (IBUS_5V) du pad ne correspond pas à celui donné par la schématique (/IBUS_5V)
+    Local override; warning
+    @(116.0500 mm, 88.0000 mm): Pad 1 [IBUS_5V] de C10 sur F.Cu
+[footprint_symbol_field_mismatch]: Le champ 'Description' diffère (PCB: '', Schématique 'Unpolarized capacitor, small symbol')
+    Local override; warning
+    @(113.0000 mm, 88.0000 mm): Empreinte C11
+[net_conflict]: Le net (IBUS_5V) du pad ne correspond pas à celui donné par la schématique (/IBUS_5V)
+    Local override; warning
+    @(112.2250 mm, 88.0000 mm): Pad 1 [IBUS_5V] de C11 sur F.Cu
+[footprint_symbol_field_mismatch]: Le champ 'Description' diffère (PCB: '', Schématique 'Unpolarized capacitor, small symbol')
+    Local override; warning
+    @(134.0000 mm, 87.0000 mm): Empreinte C12
+[net_conflict]: Le net (DAC_CAPP) du pad ne correspond pas à celui donné par la schématique (/DAC_CAPP)
+    Local override; warning
+    @(133.2250 mm, 87.0000 mm): Pad 1 [DAC_CAPP] de C12 sur F.Cu
+[net_conflict]: Le net (DAC_CAPM) du pad ne correspond pas à celui donné par la schématique (/DAC_CAPM)
+    Local override; warning
+    @(134.7750 mm, 87.0000 mm): Pad 2 [DAC_CAPM] de C12 sur F.Cu
+[footprint_symbol_field_mismatch]: Le champ 'Description' diffère (PCB: '', Schématique 'Unpolarized capacitor, small symbol')
+    Local override; warning
+    @(134.0000 mm, 91.0000 mm): Empreinte C13
+[net_conflict]: Le net (DAC_VNEG) du pad ne correspond pas à celui donné par la schématique (/DAC_VNEG)
+    Local override; warning
+    @(133.2250 mm, 91.0000 mm): Pad 1 [DAC_VNEG] de C13 sur F.Cu
+[footprint_symbol_field_mismatch]: Le champ 'Description' diffère (PCB: '', Schématique 'Unpolarized capacitor, small symbol')
+    Local override; warning
+    @(152.0000 mm, 85.0000 mm): Empreinte C14
+[footprint_symbol_field_mismatch]: Le champ 'Description' diffère (PCB: '', Schématique 'Unpolarized capacitor, small symbol')
+    Local override; warning
+    @(152.0000 mm, 88.5000 mm): Empreinte C15
+[net_conflict]: Le net (AVDD_3V3) du pad ne correspond pas à celui donné par la schématique (/AVDD_3V3)
+    Local override; warning
+    @(151.0500 mm, 88.5000 mm): Pad 1 [AVDD_3V3] de C15 sur F.Cu
+[net_conflict]: Le net (AGND) du pad ne correspond pas à celui donné par la schématique (/AGND)
+    Local override; warning
+    @(152.9500 mm, 88.5000 mm): Pad 2 [AGND] de C15 sur F.Cu
+[footprint_symbol_field_mismatch]: Le champ 'Description' diffère (PCB: '', Schématique 'Unpolarized capacitor, small symbol')
+    Local override; warning
+    @(152.0000 mm, 92.0000 mm): Empreinte C16
+[net_conflict]: Le net (AVDD_3V3) du pad ne correspond pas à celui donné par la schématique (/AVDD_3V3)
+    Local override; warning
+    @(151.2250 mm, 92.0000 mm): Pad 1 [AVDD_3V3] de C16 sur F.Cu
+[net_conflict]: Le net (AGND) du pad ne correspond pas à celui donné par la schématique (/AGND)
+    Local override; warning
+    @(152.7750 mm, 92.0000 mm): Pad 2 [AGND] de C16 sur F.Cu
+[footprint_symbol_field_mismatch]: Le champ 'Description' diffère (PCB: '', Schématique 'Unpolarized capacitor, small symbol')
+    Local override; warning
+    @(130.0000 mm, 95.0000 mm): Empreinte C17
+[net_conflict]: Le net (DAC_FLT_L) du pad ne correspond pas à celui donné par la schématique (/DAC_FLT_L)
+    Local override; warning
+    @(130.0000 mm, 95.7750 mm): Pad 1 [DAC_FLT_L] de C17 sur F.Cu
+[net_conflict]: Le net (AGND) du pad ne correspond pas à celui donné par la schématique (/AGND)
+    Local override; warning
+    @(130.0000 mm, 94.2250 mm): Pad 2 [AGND] de C17 sur F.Cu
+[footprint_symbol_field_mismatch]: Le champ 'Description' diffère (PCB: '', Schématique 'Unpolarized capacitor, small symbol')
+    Local override; warning
+    @(133.0000 mm, 95.0000 mm): Empreinte C18
+[net_conflict]: Le net (DAC_FLT_R) du pad ne correspond pas à celui donné par la schématique (/DAC_FLT_R)
+    Local override; warning
+    @(133.0000 mm, 95.7750 mm): Pad 1 [DAC_FLT_R] de C18 sur F.Cu
+[net_conflict]: Le net (AGND) du pad ne correspond pas à celui donné par la schématique (/AGND)
+    Local override; warning
+    @(133.0000 mm, 94.2250 mm): Pad 2 [AGND] de C18 sur F.Cu
+[footprint_symbol_field_mismatch]: Le champ 'Description' diffère (PCB: '', Schématique 'Unpolarized capacitor, small symbol')
+    Local override; warning
+    @(136.0000 mm, 95.0000 mm): Empreinte C19
+[net_conflict]: Le net (DAC_FLT_L) du pad ne correspond pas à celui donné par la schématique (/DAC_FLT_L)
+    Local override; warning
+    @(136.0000 mm, 95.9500 mm): Pad 1 [DAC_FLT_L] de C19 sur F.Cu
+[net_conflict]: Le net (PI_AUDIO_L) du pad ne correspond pas à celui donné par la schématique (/PI_AUDIO_L)
+    Local override; warning
+    @(136.0000 mm, 94.0500 mm): Pad 2 [PI_AUDIO_L] de C19 sur F.Cu
+[footprint_symbol_field_mismatch]: Le champ 'Description' diffère (PCB: '', Schématique 'Unpolarized capacitor, small symbol')
+    Local override; warning
+    @(139.0000 mm, 95.0000 mm): Empreinte C20
+[net_conflict]: Le net (DAC_FLT_R) du pad ne correspond pas à celui donné par la schématique (/DAC_FLT_R)
+    Local override; warning
+    @(139.0000 mm, 95.9500 mm): Pad 1 [DAC_FLT_R] de C20 sur F.Cu
+[net_conflict]: Le net (PI_AUDIO_R) du pad ne correspond pas à celui donné par la schématique (/PI_AUDIO_R)
+    Local override; warning
+    @(139.0000 mm, 94.0500 mm): Pad 2 [PI_AUDIO_R] de C20 sur F.Cu
+[footprint_symbol_field_mismatch]: Le champ 'Description' diffère (PCB: '', Schématique 'Unpolarized capacitor, small symbol')
+    Local override; warning
+    @(142.0000 mm, 95.0000 mm): Empreinte C21
+[net_conflict]: Le net (DAC_VCOM) du pad ne correspond pas à celui donné par la schématique (/DAC_VCOM)
+    Local override; warning
+    @(142.0000 mm, 95.7750 mm): Pad 1 [DAC_VCOM] de C21 sur F.Cu
+[net_conflict]: Le net (AGND) du pad ne correspond pas à celui donné par la schématique (/AGND)
+    Local override; warning
+    @(142.0000 mm, 94.2250 mm): Pad 2 [AGND] de C21 sur F.Cu
+[footprint_symbol_field_mismatch]: Le champ 'Description' diffère (PCB: '', Schématique 'Unpolarized capacitor, small symbol')
+    Local override; warning
+    @(145.0000 mm, 95.0000 mm): Empreinte C22
+[net_conflict]: Le net (DAC_LDOO) du pad ne correspond pas à celui donné par la schématique (/DAC_LDOO)
+    Local override; warning
+    @(145.0000 mm, 95.7750 mm): Pad 1 [DAC_LDOO] de C22 sur F.Cu
+[net_conflict]: Le net (DVR_VCC_5V) du pad ne correspond pas à celui donné par la schématique (/DVR_VCC_5V)
+    Local override; warning
+    @(141.2250 mm, 66.0000 mm): Pad 1 [DVR_VCC_5V] de C25 sur F.Cu
+[net_conflict]: Le pad a le net manquant donné par la schématique (+5V)
+    Local override; warning
+    @(167.0500 mm, 98.5000 mm): Pad 1 [<no net>] de C26 sur F.Cu
+[net_conflict]: Le pad a le net manquant donné par la schématique (+5V)
+    Local override; warning
+    @(171.2250 mm, 98.5000 mm): Pad 1 [<no net>] de C27 sur F.Cu
+[net_conflict]: Le net (Net-(C28-Pad1)) du pad ne correspond pas à celui donné par la schématique (Net-(U7-VREF))
+    Local override; warning
+    @(175.2250 mm, 98.5000 mm): Pad 1 [Net-(C28-Pad1)] de C28 sur F.Cu
+[net_conflict]: Le net (Net-(C30-Pad2)) du pad ne correspond pas à celui donné par la schématique (/TEL_OUT+)
+    Local override; warning
+    @(186.0000 mm, 87.0500 mm): Pad 2 [Net-(C30-Pad2)] de C30 sur F.Cu
+[net_conflict]: Le net (Net-(C31-Pad2)) du pad ne correspond pas à celui donné par la schématique (/TEL_OUT-)
+    Local override; warning
+    @(186.0000 mm, 91.0500 mm): Pad 2 [Net-(C31-Pad2)] de C31 sur F.Cu
+[net_conflict]: Le net (Net-(C33-Pad1)) du pad ne correspond pas à celui donné par la schématique (/TEL_MIC+)
+    Local override; warning
+    @(190.0000 mm, 106.9500 mm): Pad 1 [Net-(C33-Pad1)] de C33 sur F.Cu
+[net_conflict]: Le net (Net-(C33-Pad2)) du pad ne correspond pas à celui donné par la schématique (/MIC_OUT)
+    Local override; warning
+    @(190.0000 mm, 105.0500 mm): Pad 2 [Net-(C33-Pad2)] de C33 sur F.Cu
+[footprint_symbol_field_mismatch]: Le champ 'Description' diffère (PCB: '', Schématique 'Bidirectional transient-voltage-suppression diode')
+    Local override; warning
+    @(186.0000 mm, 64.0000 mm): Empreinte D1
+[net_conflict]: Le net (VRAW) du pad ne correspond pas à celui donné par la schématique (/VRAW)
+    Local override; warning
+    @(183.8500 mm, 64.0000 mm): Pad 1 [VRAW] de D1 sur F.Cu
+[footprint_symbol_field_mismatch]: Le champ 'Description' diffère (PCB: '', Schématique 'Schottky diode')
+    Local override; warning
+    @(175.0000 mm, 66.0000 mm): Empreinte D2
+[net_conflict]: Le net (VFILT) du pad ne correspond pas à celui donné par la schématique (/VFILT)
+    Local override; warning
+    @(175.0000 mm, 69.4000 mm): Pad 1 [VFILT] de D2 sur F.Cu
+[net_conflict]: Le net (VRAW) du pad ne correspond pas à celui donné par la schématique (/VRAW)
+    Local override; warning
+    @(175.0000 mm, 62.6000 mm): Pad 2 [VRAW] de D2 sur F.Cu
+[footprint_symbol_field_mismatch]: Le champ 'Datasheet' diffère (PCB: '', Schématique 'http://www.diodes.com/_files/datasheets/ds11005.pdf')
+    Local override; warning
+    @(160.0000 mm, 75.0000 mm): Empreinte D3
+[net_conflict]: Le net (IBUS_5V) du pad ne correspond pas à celui donné par la schématique (/IBUS_5V)
+    Local override; warning
+    @(159.0625 mm, 74.0500 mm): Pad 1 [IBUS_5V] de D3 sur F.Cu
+[net_conflict]: Le net (GPIO22) du pad ne correspond pas à celui donné par la schématique (/GPIO22)
+    Local override; warning
+    @(159.0625 mm, 75.9500 mm): Pad 2 [GPIO22] de D3 sur F.Cu
+[net_conflict]: Le net (PWR_KEEP_ALIVE) du pad ne correspond pas à celui donné par la schématique (/PWR_KEEP_ALIVE)
+    Local override; warning
+    @(160.9375 mm, 75.0000 mm): Pad 3 [PWR_KEEP_ALIVE] de D3 sur F.Cu
+[footprint_symbol_field_mismatch]: Le champ 'Description' diffère (PCB: '', Schématique 'Light emitting diode')
+    Local override; warning
+    @(160.0000 mm, 79.0000 mm): Empreinte D4
+[net_conflict]: Le net (LED_5V_ANODE) du pad ne correspond pas à celui donné par la schématique (/LED_5V_ANODE)
+    Local override; warning
+    @(160.9375 mm, 79.0000 mm): Pad 2 [LED_5V_ANODE] de D4 sur F.Cu
+[footprint_symbol_field_mismatch]: Le champ 'Description' diffère (PCB: '', Schématique 'Light emitting diode')
+    Local override; warning
+    @(160.0000 mm, 90.0000 mm): Empreinte D5
+[net_conflict]: Le net (LED_IBUS_ANODE) du pad ne correspond pas à celui donné par la schématique (/LED_IBUS_ANODE)
+    Local override; warning
+    @(160.9375 mm, 90.0000 mm): Pad 2 [LED_IBUS_ANODE] de D5 sur F.Cu
+[footprint_symbol_field_mismatch]: Le champ 'Description' diffère (PCB: '', Schématique 'Diode')
+    Local override; warning
+    @(181.0000 mm, 78.0000 mm): Empreinte D7
+[net_conflict]: Le net (RELAY_COIL_NEG) du pad ne correspond pas à celui donné par la schématique (/RELAY_COIL_NEG)
+    Local override; warning
+    @(182.0500 mm, 78.0000 mm): Pad 2 [RELAY_COIL_NEG] de D7 sur F.Cu
+[net_conflict]: Le net (REV_SENSE_3V3) du pad ne correspond pas à celui donné par la schématique (/GPIO13{slash}PWM1)
+    Local override; warning
+    @(157.0625 mm, 105.0500 mm): Pad 1 [REV_SENSE_3V3] de D8 sur F.Cu
+[net_conflict]: Le net (REV_SENSE_3V3) du pad ne correspond pas à celui donné par la schématique (/GPIO13{slash}PWM1)
+    Local override; warning
+    @(161.0625 mm, 100.5500 mm): Pad 1 [REV_SENSE_3V3] de D9 sur F.Cu
+[net_conflict]: Le net (GPIO25) du pad ne correspond pas à celui donné par la schématique (/GPIO25)
+    Local override; warning
+    @(161.0625 mm, 102.4500 mm): Pad 2 [GPIO25] de D9 sur F.Cu
+[net_conflict]: Le net (TV_TRIG_GATE) du pad ne correspond pas à celui donné par la schématique (/TV_TRIG_GATE)
+    Local override; warning
+    @(162.9375 mm, 101.5000 mm): Pad 3 [TV_TRIG_GATE] de D9 sur F.Cu
+[net_conflict]: Le net (FAN_NEG) du pad ne correspond pas à celui donné par la schématique (/FAN_NEG)
+    Local override; warning
+    @(112.0500 mm, 100.0000 mm): Pad 2 [FAN_NEG] de D10 sur F.Cu
+[net_conflict]: Le net (REV_SENSE_3V3) du pad ne correspond pas à celui donné par la schématique (/GPIO13{slash}PWM1)
+    Local override; warning
+    @(152.0625 mm, 101.0500 mm): Pad 1 [REV_SENSE_3V3] de D11 sur F.Cu
+[net_conflict]: Le net (GPIO24) du pad ne correspond pas à celui donné par la schématique (/GPIO24)
+    Local override; warning
+    @(152.0625 mm, 102.9500 mm): Pad 2 [GPIO24] de D11 sur F.Cu
+[net_conflict]: Le net (VID_SEL) du pad ne correspond pas à celui donné par la schématique (/VID_SEL)
+    Local override; warning
+    @(153.9375 mm, 102.0000 mm): Pad 3 [VID_SEL] de D11 sur F.Cu
+[net_conflict]: Le net (DVR_VCC_5V) du pad ne correspond pas à celui donné par la schématique (/DVR_VCC_5V)
+    Local override; warning
+    @(152.0625 mm, 105.0500 mm): Pad 1 [DVR_VCC_5V] de D12 sur F.Cu
+[footprint_symbol_field_mismatch]: Le champ 'Description' diffère (PCB: '', Schématique 'Fuse')
+    Local override; warning
+    @(186.0000 mm, 53.0000 mm): Empreinte F1
+[net_conflict]: Le net (KL30) du pad ne correspond pas à celui donné par la schématique (/KL30)
+    Local override; warning
+    @(186.0000 mm, 54.4000 mm): Pad 1 [KL30] de F1 sur F.Cu
+[net_conflict]: Le net (VRAW) du pad ne correspond pas à celui donné par la schématique (/VRAW)
+    Local override; warning
+    @(186.0000 mm, 51.6000 mm): Pad 2 [VRAW] de F1 sur F.Cu
+[net_conflict]: Le net (Net-(FB1-Pad1)) du pad ne correspond pas à celui donné par la schématique (Net-(U7-+OUT_L))
+    Local override; warning
+    @(181.0000 mm, 89.0625 mm): Pad 1 [Net-(FB1-Pad1)] de FB1 sur F.Cu
+[net_conflict]: Le net (Net-(FB2-Pad1)) du pad ne correspond pas à celui donné par la schématique (Net-(U7--OUT_L))
+    Local override; warning
+    @(181.0000 mm, 93.0625 mm): Pad 1 [Net-(FB2-Pad1)] de FB2 sur F.Cu
+[net_conflict]: Le net (PI_AUDIO_L) du pad ne correspond pas à celui donné par la schématique (/PI_AUDIO_L)
+    Local override; warning
+    @(164.0000 mm, 88.0625 mm): Pad 1 [PI_AUDIO_L] de FB3 sur F.Cu
+[footprint_symbol_field_mismatch]: Le champ 'Description' diffère (PCB: '', Schématique 'EMI 2-inductor common mode filter')
+    Local override; warning
+    @(175.0000 mm, 56.0000 mm): Empreinte FL1
+[net_conflict]: Le net (VFILT) du pad ne correspond pas à celui donné par la schématique (/VFILT)
+    Local override; warning
+    @(171.7500 mm, 54.5000 mm): Pad 1 [VFILT] de FL1 sur F.Cu
+[net_conflict]: Le net (+12V_IN) du pad ne correspond pas à celui donné par la schématique (/+12V_IN)
+    Local override; warning
+    @(171.7500 mm, 57.5000 mm): Pad 2 [+12V_IN] de FL1 sur F.Cu
+[net_conflict]: Le net (GPIO2{slash}SDA1) du pad ne correspond pas à celui donné par la schématique (/GPIO2{slash}SDA1)
+    Local override; warning
+    @(112.8700 mm, 56.0000 mm): Pad métallisé 3 [GPIO2/SDA1] de J1
+[net_conflict]: Le net (GPIO3{slash}SCL1) du pad ne correspond pas à celui donné par la schématique (/GPIO3{slash}SCL1)
+    Local override; warning
+    @(112.8700 mm, 53.4600 mm): Pad métallisé 5 [GPIO3/SCL1] de J1
+[net_conflict]: Le net (GPIO4{slash}GPCLK0) du pad ne correspond pas à celui donné par la schématique (/GPIO4{slash}GPCLK0)
+    Local override; warning
+    @(112.8700 mm, 50.9200 mm): Pad métallisé 7 [GPIO4/GPCLK0] de J1
+[net_conflict]: Le net (GPIO14{slash}TXD0) du pad ne correspond pas à celui donné par la schématique (/GPIO14{slash}TXD0)
+    Local override; warning
+    @(110.3300 mm, 50.9200 mm): Pad métallisé 8 [GPIO14/TXD0] de J1
+[net_conflict]: Le net (GPIO15{slash}RXD0) du pad ne correspond pas à celui donné par la schématique (/GPIO15{slash}RXD0)
+    Local override; warning
+    @(110.3300 mm, 48.3800 mm): Pad métallisé 10 [GPIO15/RXD0] de J1
+[net_conflict]: Le net (GPIO17) du pad ne correspond pas à celui donné par la schématique (/GPIO17)
+    Local override; warning
+    @(112.8700 mm, 45.8400 mm): Pad métallisé 11 [GPIO17] de J1
+[net_conflict]: Le net (GPIO18{slash}PCM.CLK) du pad ne correspond pas à celui donné par la schématique (/GPIO18{slash}PCM.CLK)
+    Local override; warning
+    @(110.3300 mm, 45.8400 mm): Pad métallisé 12 [GPIO18/PCM.CLK] de J1
+[net_conflict]: Le net (RELAY_CTRL) du pad ne correspond pas à celui donné par la schématique (/GPIO27)
+    Local override; warning
+    @(112.8700 mm, 43.3000 mm): Pad métallisé 13 [RELAY_CTRL] de J1
+[net_conflict]: Le net (GPIO22) du pad ne correspond pas à celui donné par la schématique (/GPIO22)
+    Local override; warning
+    @(112.8700 mm, 40.7600 mm): Pad métallisé 15 [GPIO22] de J1
+[net_conflict]: Le net (GPIO23) du pad ne correspond pas à celui donné par la schématique (/GPIO23)
+    Local override; warning
+    @(110.3300 mm, 40.7600 mm): Pad métallisé 16 [GPIO23] de J1
+[net_conflict]: Le net (GPIO24) du pad ne correspond pas à celui donné par la schématique (/GPIO24)
+    Local override; warning
+    @(110.3300 mm, 38.2200 mm): Pad métallisé 18 [GPIO24] de J1
+[net_conflict]: Le net (GPIO10{slash}SPI0.MOSI) du pad ne correspond pas à celui donné par la schématique (/GPIO10{slash}SPI0.MOSI)
+    Local override; warning
+    @(112.8700 mm, 35.6800 mm): Pad métallisé 19 [GPIO10/SPI0.MOSI] de J1
+[net_conflict]: Le net (GPIO9{slash}SPI0.MISO) du pad ne correspond pas à celui donné par la schématique (/GPIO9{slash}SPI0.MISO)
+    Local override; warning
+    @(112.8700 mm, 33.1400 mm): Pad métallisé 21 [GPIO9/SPI0.MISO] de J1
+[net_conflict]: Le net (GPIO25) du pad ne correspond pas à celui donné par la schématique (/GPIO25)
+    Local override; warning
+    @(110.3300 mm, 33.1400 mm): Pad métallisé 22 [GPIO25] de J1
+[net_conflict]: Le net (GPIO11{slash}SPI0.SCLK) du pad ne correspond pas à celui donné par la schématique (/GPIO11{slash}SPI0.SCLK)
+    Local override; warning
+    @(112.8700 mm, 30.6000 mm): Pad métallisé 23 [GPIO11/SPI0.SCLK] de J1
+[net_conflict]: Le net (GPIO8{slash}SPI0.CE0) du pad ne correspond pas à celui donné par la schématique (/GPIO8{slash}SPI0.CE0)
+    Local override; warning
+    @(110.3300 mm, 30.6000 mm): Pad métallisé 24 [GPIO8/SPI0.CE0] de J1
+[net_conflict]: Le net (GPIO7{slash}SPI0.CE1) du pad ne correspond pas à celui donné par la schématique (/GPIO7{slash}SPI0.CE1)
+    Local override; warning
+    @(110.3300 mm, 28.0600 mm): Pad métallisé 26 [GPIO7/SPI0.CE1] de J1
+[net_conflict]: Le net (ID_SDA) du pad ne correspond pas à celui donné par la schématique (/ID_SDA)
+    Local override; warning
+    @(112.8700 mm, 25.5200 mm): Pad métallisé 27 [ID_SDA] de J1
+[net_conflict]: Le net (ID_SCL) du pad ne correspond pas à celui donné par la schématique (/ID_SCL)
+    Local override; warning
+    @(110.3300 mm, 25.5200 mm): Pad métallisé 28 [ID_SCL] de J1
+[net_conflict]: Le net (GPIO5) du pad ne correspond pas à celui donné par la schématique (/GPIO5)
+    Local override; warning
+    @(112.8700 mm, 22.9800 mm): Pad métallisé 29 [GPIO5] de J1
+[net_conflict]: Le net (GPIO6) du pad ne correspond pas à celui donné par la schématique (/GPIO6)
+    Local override; warning
+    @(112.8700 mm, 20.4400 mm): Pad métallisé 31 [GPIO6] de J1
+[net_conflict]: Le net (GPIO12{slash}PWM0) du pad ne correspond pas à celui donné par la schématique (/GPIO12{slash}PWM0)
+    Local override; warning
+    @(110.3300 mm, 20.4400 mm): Pad métallisé 32 [GPIO12/PWM0] de J1
+[net_conflict]: Le net (GPIO13{slash}PWM1) du pad ne correspond pas à celui donné par la schématique (/GPIO13{slash}PWM1)
+    Local override; warning
+    @(112.8700 mm, 17.9000 mm): Pad métallisé 33 [GPIO13/PWM1] de J1
+[net_conflict]: Le net (GPIO19{slash}PCM.FS) du pad ne correspond pas à celui donné par la schématique (/GPIO19{slash}PCM.FS)
+    Local override; warning
+    @(112.8700 mm, 15.3600 mm): Pad métallisé 35 [GPIO19/PCM.FS] de J1
+[net_conflict]: Le net (GPIO16) du pad ne correspond pas à celui donné par la schématique (/GPIO16)
+    Local override; warning
+    @(110.3300 mm, 15.3600 mm): Pad métallisé 36 [GPIO16] de J1
+[net_conflict]: Le net (GPIO26) du pad ne correspond pas à celui donné par la schématique (/GPIO26)
+    Local override; warning
+    @(112.8700 mm, 12.8200 mm): Pad métallisé 37 [GPIO26] de J1
+[net_conflict]: Le net (GPIO20{slash}PCM.DIN) du pad ne correspond pas à celui donné par la schématique (/GPIO20{slash}PCM.DIN)
+    Local override; warning
+    @(110.3300 mm, 12.8200 mm): Pad métallisé 38 [GPIO20/PCM.DIN] de J1
+[net_conflict]: Le net (GPIO21{slash}PCM.DOUT) du pad ne correspond pas à celui donné par la schématique (/GPIO21{slash}PCM.DOUT)
+    Local override; warning
+    @(110.3300 mm, 10.2800 mm): Pad métallisé 40 [GPIO21/PCM.DOUT] de J1
+[footprint_symbol_mismatch]: Les attributs de l'empreinte ne correspondent pas au symbole: les paramètres 'Exclure de la liste du matériel' diffèrent
+    Local override; warning
+    @(132.0000 mm, 70.0000 mm): Empreinte JP1
+[footprint_symbol_field_mismatch]: Le champ 'Description' diffère (PCB: '', Schématique 'Solder Jumper, 2-pole, open')
+    Local override; warning
+    @(132.0000 mm, 70.0000 mm): Empreinte JP1
+[net_conflict]: Le net (Net-(JP1-Pad1)) du pad ne correspond pas à celui donné par la schématique (Net-(JP1-A))
+    Local override; warning
+    @(131.3500 mm, 70.0000 mm): Pad 1 [Net-(JP1-Pad1)] de JP1 sur F.Cu
+[footprint_symbol_field_mismatch]: Le champ 'Description' diffère (PCB: '', Schématique 'Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)')
+    Local override; warning
+    @(195.0000 mm, 62.0000 mm): Empreinte J_CAR_3P
+[net_conflict]: Le net (KL30) du pad ne correspond pas à celui donné par la schématique (/KL30)
+    Local override; warning
+    @(195.0000 mm, 64.5400 mm): Pad métallisé 2 [KL30] de J_CAR_3P
+[net_conflict]: Le net (IBUS) du pad ne correspond pas à celui donné par la schématique (/IBUS)
+    Local override; warning
+    @(195.0000 mm, 67.0800 mm): Pad métallisé 3 [IBUS] de J_CAR_3P
+[footprint_symbol_field_mismatch]: Le champ 'Description' diffère (PCB: '', Schématique 'Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)')
+    Local override; warning
+    @(195.0000 mm, 80.0000 mm): Empreinte J_CAR_6P
+[net_conflict]: Le net (AUDIO_OUT_L) du pad ne correspond pas à celui donné par la schématique (/AUDIO_OUT_L)
+    Local override; warning
+    @(192.4600 mm, 85.0800 mm): Pad métallisé 1 [AUDIO_OUT_L] de J_CAR_6P
+[net_conflict]: Le net (CDC_IN_L) du pad ne correspond pas à celui donné par la schématique (/CDC_IN_L)
+    Local override; warning
+    @(192.4600 mm, 82.5400 mm): Pad métallisé 2 [CDC_IN_L] de J_CAR_6P
+[net_conflict]: Le net (AGND) du pad ne correspond pas à celui donné par la schématique (/AGND)
+    Local override; warning
+    @(192.4600 mm, 80.0000 mm): Pad métallisé 3 [AGND] de J_CAR_6P
+[net_conflict]: Le net (AUDIO_OUT_R) du pad ne correspond pas à celui donné par la schématique (/AUDIO_OUT_R)
+    Local override; warning
+    @(195.0000 mm, 85.0800 mm): Pad métallisé 4 [AUDIO_OUT_R] de J_CAR_6P
+[net_conflict]: Le net (CDC_IN_R) du pad ne correspond pas à celui donné par la schématique (/CDC_IN_R)
+    Local override; warning
+    @(195.0000 mm, 82.5400 mm): Pad métallisé 5 [CDC_IN_R] de J_CAR_6P
+[net_conflict]: Le net (AGND) du pad ne correspond pas à celui donné par la schématique (/AGND)
+    Local override; warning
+    @(195.0000 mm, 80.0000 mm): Pad métallisé 6 [AGND] de J_CAR_6P
+[net_conflict]: Le net (DVR_12V_OUT) du pad ne correspond pas à celui donné par la schématique (/DVR_12V_OUT)
+    Local override; warning
+    @(104.5000 mm, 86.0000 mm): Pad métallisé 1 [DVR_12V_OUT] de J_DVR
+[net_conflict]: Le net (FAN_NEG) du pad ne correspond pas à celui donné par la schématique (/FAN_NEG)
+    Local override; warning
+    @(104.5000 mm, 96.5000 mm): Pad métallisé 2 [FAN_NEG] de J_FAN
+[footprint_symbol_field_mismatch]: Le champ 'Description' diffère (PCB: '', Schématique 'Microphone Output to USB Sound Card')
+    Local override; warning
+    @(192.0000 mm, 110.0000 mm): Empreinte J_MIC
+[net_conflict]: Le net (Net-(C33-Pad2)) du pad ne correspond pas à celui donné par la schématique (/MIC_OUT)
+    Local override; warning
+    @(192.0000 mm, 110.0000 mm): Pad métallisé 1 [Net-(C33-Pad2)] de J_MIC
+[net_conflict]: Le pad a le net manquant donné par la schématique (unconnected-(J_PI_VID-Pin_1-Pad1))
+    Local override; warning
+    @(116.0000 mm, 109.0000 mm): Pad métallisé 1 [<no net>] de J_PI_VID
+[net_conflict]: Le pad a le net manquant donné par la schématique (unconnected-(J_PI_VID-Pin_2-Pad2))
+    Local override; warning
+    @(116.0000 mm, 111.5400 mm): Pad métallisé 2 [<no net>] de J_PI_VID
+[net_conflict]: Le net (PI_VID) du pad ne correspond pas à celui donné par la schématique (/PI_VID)
+    Local override; warning
+    @(116.0000 mm, 116.6200 mm): Pad métallisé 4 [PI_VID] de J_PI_VID
+[net_conflict]: Le net (CAM_VID) du pad ne correspond pas à celui donné par la schématique (/CAM_VID)
+    Local override; warning
+    @(129.0000 mm, 106.0000 mm): Pad métallisé 1 [CAM_VID] de J_RCA_CAM
+[net_conflict]: Le net (TV_VID_OUT) du pad ne correspond pas à celui donné par la schématique (/TV_VID_OUT)
+    Local override; warning
+    @(144.0000 mm, 106.0000 mm): Pad métallisé 1 [TV_VID_OUT] de J_RCA_TV
+[net_conflict]: Le net (REV_12V_IN) du pad ne correspond pas à celui donné par la schématique (/REV_12V_IN)
+    Local override; warning
+    @(175.0000 mm, 110.0000 mm): Pad métallisé 1 [REV_12V_IN] de J_REV
+[footprint_symbol_field_mismatch]: Le champ 'Description' diffère (PCB: '', Schématique 'DB25 Telephone Harness Interface')
+    Local override; warning
+    @(196.0000 mm, 97.0000 mm): Empreinte J_TEL
+[net_conflict]: Le net (Net-(C30-Pad2)) du pad ne correspond pas à celui donné par la schématique (/TEL_OUT+)
+    Local override; warning
+    @(196.0000 mm, 97.0000 mm): Pad métallisé 1 [Net-(C30-Pad2)] de J_TEL
+[net_conflict]: Le net (Net-(C31-Pad2)) du pad ne correspond pas à celui donné par la schématique (/TEL_OUT-)
+    Local override; warning
+    @(196.0000 mm, 99.5400 mm): Pad métallisé 2 [Net-(C31-Pad2)] de J_TEL
+[net_conflict]: Le net (Net-(C33-Pad1)) du pad ne correspond pas à celui donné par la schématique (/TEL_MIC+)
+    Local override; warning
+    @(196.0000 mm, 102.0800 mm): Pad métallisé 3 [Net-(C33-Pad1)] de J_TEL
+[net_conflict]: Le pad a le net manquant donné par la schématique (unconnected-(J_TEL-Pin_5-Pad5))
+    Local override; warning
+    @(196.0000 mm, 107.1600 mm): Pad métallisé 5 [<no net>] de J_TEL
+[net_conflict]: Le pad a le net manquant donné par la schématique (/TEL_MUTE)
+    Local override; warning
+    @(196.0000 mm, 109.7000 mm): Pad métallisé 6 [<no net>] de J_TEL
+[net_conflict]: Le net (CAM_TRIG_GND) du pad ne correspond pas à celui donné par la schématique (/CAM_TRIG_GND)
+    Local override; warning
+    @(186.0000 mm, 110.0000 mm): Pad métallisé 1 [CAM_TRIG_GND] de J_TV_TRIG
+[footprint_symbol_field_mismatch]: Le champ 'Description' diffère (PCB: '', Schématique 'Relay DPDT, monostable, EN50005')
+    Local override; warning
+    @(171.0000 mm, 78.0000 mm): Empreinte K1
+[net_conflict]: Aucun pad trouvé pour la pin A1 (+5V) du schéma
+    Local override; warning
+    @(171.0000 mm, 78.0000 mm): Empreinte K1
+[net_conflict]: Aucun pad trouvé pour la pin 11 (/AUDIO_OUT_L) du schéma
+    Local override; warning
+    @(171.0000 mm, 78.0000 mm): Empreinte K1
+[net_conflict]: Aucun pad trouvé pour la pin 21 (/AUDIO_OUT_R) du schéma
+    Local override; warning
+    @(171.0000 mm, 78.0000 mm): Empreinte K1
+[net_conflict]: Aucun pad trouvé pour la pin 14 (/CDC_IN_L) du schéma
+    Local override; warning
+    @(171.0000 mm, 78.0000 mm): Empreinte K1
+[net_conflict]: Aucun pad trouvé pour la pin 24 (/CDC_IN_R) du schéma
+    Local override; warning
+    @(171.0000 mm, 78.0000 mm): Empreinte K1
+[net_conflict]: Aucun pad trouvé pour la pin 12 (/PI_AUDIO_L) du schéma
+    Local override; warning
+    @(171.0000 mm, 78.0000 mm): Empreinte K1
+[net_conflict]: Aucun pad trouvé pour la pin 22 (/PI_AUDIO_R) du schéma
+    Local override; warning
+    @(171.0000 mm, 78.0000 mm): Empreinte K1
+[net_conflict]: Aucun pad trouvé pour la pin A2 (/RELAY_COIL_NEG) du schéma
+    Local override; warning
+    @(171.0000 mm, 78.0000 mm): Empreinte K1
+[footprint_symbol_field_mismatch]: Le champ 'Description' diffère (PCB: '', Schématique 'Inductor')
+    Local override; warning
+    @(150.0000 mm, 63.0000 mm): Empreinte L1
+[net_conflict]: Le net (SW_NODE) du pad ne correspond pas à celui donné par la schématique (/SW_NODE)
+    Local override; warning
+    @(147.0000 mm, 63.0000 mm): Pad 1 [SW_NODE] de L1 sur F.Cu
+[footprint_symbol_field_mismatch]: Le champ 'Description' diffère (PCB: '', Schématique 'Inductor with ferrite core')
+    Local override; warning
+    @(134.0000 mm, 83.0000 mm): Empreinte L2
+[net_conflict]: Le net (AVDD_3V3) du pad ne correspond pas à celui donné par la schématique (/AVDD_3V3)
+    Local override; warning
+    @(134.0000 mm, 81.9375 mm): Pad 2 [AVDD_3V3] de L2 sur F.Cu
+[footprint_symbol_field_mismatch]: Le champ 'Description' diffère (PCB: '', Schématique 'N-MOSFET transistor, gate/source/drain')
+    Local override; warning
+    @(181.0000 mm, 74.0000 mm): Empreinte Q1
+[net_conflict]: Le net (RELAY_CTRL) du pad ne correspond pas à celui donné par la schématique (/GPIO27)
+    Local override; warning
+    @(180.0625 mm, 73.0500 mm): Pad 1 [RELAY_CTRL] de Q1 sur F.Cu
+[net_conflict]: Le net (RELAY_COIL_NEG) du pad ne correspond pas à celui donné par la schématique (/RELAY_COIL_NEG)
+    Local override; warning
+    @(181.9375 mm, 74.0000 mm): Pad 3 [RELAY_COIL_NEG] de Q1 sur F.Cu
+[net_conflict]: Le net (TV_TRIG_GATE) du pad ne correspond pas à celui donné par la schématique (/TV_TRIG_GATE)
+    Local override; warning
+    @(157.0625 mm, 101.0500 mm): Pad 1 [TV_TRIG_GATE] de Q2 sur F.Cu
+[net_conflict]: Le net (CAM_TRIG_GND) du pad ne correspond pas à celui donné par la schématique (/CAM_TRIG_GND)
+    Local override; warning
+    @(158.9375 mm, 102.0000 mm): Pad 3 [CAM_TRIG_GND] de Q2 sur F.Cu
+[net_conflict]: Le net (DVR_COMP_OUT) du pad ne correspond pas à celui donné par la schématique (/DVR_COMP_OUT)
+    Local override; warning
+    @(112.0625 mm, 79.0500 mm): Pad 1 [DVR_COMP_OUT] de Q3 sur F.Cu
+[net_conflict]: Le net (DVR_GATE_PULL) du pad ne correspond pas à celui donné par la schématique (/DVR_GATE_PULL)
+    Local override; warning
+    @(113.9375 mm, 80.0000 mm): Pad 3 [DVR_GATE_PULL] de Q3 sur F.Cu
+[net_conflict]: Le net (DVR_PMOS_GATE) du pad ne correspond pas à celui donné par la schématique (/DVR_PMOS_GATE)
+    Local override; warning
+    @(181.0625 mm, 97.0500 mm): Pad 1 [DVR_PMOS_GATE] de Q4 sur F.Cu
+[net_conflict]: Le net (VRAW) du pad ne correspond pas à celui donné par la schématique (/VRAW)
+    Local override; warning
+    @(181.0625 mm, 98.9500 mm): Pad 2 [VRAW] de Q4 sur F.Cu
+[net_conflict]: Le net (DVR_12V_OUT) du pad ne correspond pas à celui donné par la schématique (/DVR_12V_OUT)
+    Local override; warning
+    @(182.9375 mm, 98.0000 mm): Pad 3 [DVR_12V_OUT] de Q4 sur F.Cu
+[net_conflict]: Le net (FAN_GATE) du pad ne correspond pas à celui donné par la schématique (/FAN_GATE)
+    Local override; warning
+    @(110.0625 mm, 95.0500 mm): Pad 1 [FAN_GATE] de Q5 sur F.Cu
+[net_conflict]: Le net (FAN_NEG) du pad ne correspond pas à celui donné par la schématique (/FAN_NEG)
+    Local override; warning
+    @(111.9375 mm, 96.0000 mm): Pad 3 [FAN_NEG] de Q5 sur F.Cu
+[footprint_symbol_field_mismatch]: Le champ 'Description' diffère (PCB: '', Schématique 'Resistor, small symbol')
+    Local override; warning
+    @(122.0000 mm, 63.0000 mm): Empreinte R1
+[net_conflict]: Le net (ID_SDA) du pad ne correspond pas à celui donné par la schématique (/ID_SDA)
+    Local override; warning
+    @(122.0000 mm, 62.1750 mm): Pad 2 [ID_SDA] de R1 sur F.Cu
+[footprint_symbol_field_mismatch]: Le champ 'Description' diffère (PCB: '', Schématique 'Resistor, small symbol')
+    Local override; warning
+    @(122.0000 mm, 67.0000 mm): Empreinte R2
+[net_conflict]: Le net (ID_SCL) du pad ne correspond pas à celui donné par la schématique (/ID_SCL)
+    Local override; warning
+    @(122.0000 mm, 66.1750 mm): Pad 2 [ID_SCL] de R2 sur F.Cu
+[footprint_symbol_field_mismatch]: Le champ 'Description' diffère (PCB: '', Schématique 'Resistor, small symbol')
+    Local override; warning
+    @(142.0000 mm, 74.0000 mm): Empreinte R3
+[net_conflict]: Le net (BUCK_FB) du pad ne correspond pas à celui donné par la schématique (/BUCK_FB)
+    Local override; warning
+    @(142.0000 mm, 73.1750 mm): Pad 2 [BUCK_FB] de R3 sur F.Cu
+[footprint_symbol_field_mismatch]: Le champ 'Description' diffère (PCB: '', Schématique 'Resistor, small symbol')
+    Local override; warning
+    @(142.0000 mm, 78.0000 mm): Empreinte R4
+[net_conflict]: Le net (BUCK_FB) du pad ne correspond pas à celui donné par la schématique (/BUCK_FB)
+    Local override; warning
+    @(142.0000 mm, 78.8250 mm): Pad 1 [BUCK_FB] de R4 sur F.Cu
+[footprint_symbol_field_mismatch]: Le champ 'Description' diffère (PCB: '', Schématique 'Resistor, small symbol')
+    Local override; warning
+    @(150.0000 mm, 69.0000 mm): Empreinte R5
+[net_conflict]: Le net (PWR_KEEP_ALIVE) du pad ne correspond pas à celui donné par la schématique (/PWR_KEEP_ALIVE)
+    Local override; warning
+    @(150.0000 mm, 69.8250 mm): Pad 1 [PWR_KEEP_ALIVE] de R5 sur F.Cu
+[net_conflict]: Le net (BUCK_EN) du pad ne correspond pas à celui donné par la schématique (/BUCK_EN)
+    Local override; warning
+    @(150.0000 mm, 68.1750 mm): Pad 2 [BUCK_EN] de R5 sur F.Cu
+[footprint_symbol_field_mismatch]: Le champ 'Description' diffère (PCB: '', Schématique 'Resistor, small symbol')
+    Local override; warning
+    @(160.0000 mm, 70.0000 mm): Empreinte R6
+[net_conflict]: Le net (BUCK_EN) du pad ne correspond pas à celui donné par la schématique (/BUCK_EN)
+    Local override; warning
+    @(160.0000 mm, 70.8250 mm): Pad 1 [BUCK_EN] de R6 sur F.Cu
+[footprint_symbol_field_mismatch]: Le champ 'Description' diffère (PCB: '', Schématique 'Resistor, small symbol')
+    Local override; warning
+    @(130.0000 mm, 83.0000 mm): Empreinte R7
+[net_conflict]: Le net (IBUS) du pad ne correspond pas à celui donné par la schématique (/IBUS)
+    Local override; warning
+    @(130.0000 mm, 84.4625 mm): Pad 1 [IBUS] de R7 sur F.Cu
+[net_conflict]: Le net (TH3122_IBUS) du pad ne correspond pas à celui donné par la schématique (/TH3122_IBUS)
+    Local override; warning
+    @(130.0000 mm, 81.5375 mm): Pad 2 [TH3122_IBUS] de R7 sur F.Cu
+[footprint_symbol_field_mismatch]: Le champ 'Description' diffère (PCB: '', Schématique 'Resistor, small symbol')
+    Local override; warning
+    @(130.0000 mm, 87.0000 mm): Empreinte R8
+[net_conflict]: Le net (TH3122_RXD) du pad ne correspond pas à celui donné par la schématique (/TH3122_RXD)
+    Local override; warning
+    @(130.0000 mm, 87.8250 mm): Pad 1 [TH3122_RXD] de R8 sur F.Cu
+[net_conflict]: Le net (GPIO15{slash}RXD0) du pad ne correspond pas à celui donné par la schématique (/GPIO15{slash}RXD0)
+    Local override; warning
+    @(130.0000 mm, 86.1750 mm): Pad 2 [GPIO15/RXD0] de R8 sur F.Cu
+[footprint_symbol_field_mismatch]: Le champ 'Description' diffère (PCB: '', Schématique 'Resistor, small symbol')
+    Local override; warning
+    @(130.0000 mm, 91.0000 mm): Empreinte R9
+[net_conflict]: Le net (GPIO15{slash}RXD0) du pad ne correspond pas à celui donné par la schématique (/GPIO15{slash}RXD0)
+    Local override; warning
+    @(130.0000 mm, 91.8250 mm): Pad 1 [GPIO15/RXD0] de R9 sur F.Cu
+[footprint_symbol_field_mismatch]: Le champ 'Description' diffère (PCB: '', Schématique 'Resistor, small symbol')
+    Local override; warning
+    @(156.0000 mm, 83.0000 mm): Empreinte R10
+[net_conflict]: Le net (TH3122_SEN_STA) du pad ne correspond pas à celui donné par la schématique (/TH3122_SEN_STA)
+    Local override; warning
+    @(156.0000 mm, 83.8250 mm): Pad 1 [TH3122_SEN_STA] de R10 sur F.Cu
+[net_conflict]: Le net (GPIO16) du pad ne correspond pas à celui donné par la schématique (/GPIO16)
+    Local override; warning
+    @(156.0000 mm, 82.1750 mm): Pad 2 [GPIO16] de R10 sur F.Cu
+[footprint_symbol_field_mismatch]: Le champ 'Description' diffère (PCB: '', Schématique 'Resistor, small symbol')
+    Local override; warning
+    @(156.0000 mm, 87.0000 mm): Empreinte R11
+[net_conflict]: Le net (GPIO16) du pad ne correspond pas à celui donné par la schématique (/GPIO16)
+    Local override; warning
+    @(156.0000 mm, 87.8250 mm): Pad 1 [GPIO16] de R11 sur F.Cu
+[footprint_symbol_field_mismatch]: Le champ 'Description' diffère (PCB: '', Schématique 'Resistor, small symbol')
+    Local override; warning
+    @(156.0000 mm, 91.0000 mm): Empreinte R12
+[net_conflict]: Le net (BENCH_PULLUP) du pad ne correspond pas à celui donné par la schématique (/BENCH_PULLUP)
+    Local override; warning
+    @(156.0000 mm, 91.9125 mm): Pad 1 [BENCH_PULLUP] de R12 sur F.Cu
+[net_conflict]: Le net (IBUS) du pad ne correspond pas à celui donné par la schématique (/IBUS)
+    Local override; warning
+    @(156.0000 mm, 90.0875 mm): Pad 2 [IBUS] de R12 sur F.Cu
+[footprint_symbol_field_mismatch]: Le champ 'Description' diffère (PCB: '', Schématique 'Resistor, small symbol')
+    Local override; warning
+    @(156.0000 mm, 95.0000 mm): Empreinte R13
+[net_conflict]: Le net (LED_5V_ANODE) du pad ne correspond pas à celui donné par la schématique (/LED_5V_ANODE)
+    Local override; warning
+    @(156.0000 mm, 95.8250 mm): Pad 1 [LED_5V_ANODE] de R13 sur F.Cu
+[footprint_symbol_field_mismatch]: Le champ 'Description' diffère (PCB: '', Schématique 'Resistor, small symbol')
+    Local override; warning
+    @(160.0000 mm, 86.0000 mm): Empreinte R14
+[net_conflict]: Le net (LED_IBUS_ANODE) du pad ne correspond pas à celui donné par la schématique (/LED_IBUS_ANODE)
+    Local override; warning
+    @(160.0000 mm, 86.8250 mm): Pad 1 [LED_IBUS_ANODE] de R14 sur F.Cu
+[net_conflict]: Le net (IBUS_5V) du pad ne correspond pas à celui donné par la schématique (/IBUS_5V)
+    Local override; warning
+    @(160.0000 mm, 85.1750 mm): Pad 2 [IBUS_5V] de R14 sur F.Cu
+[footprint_symbol_field_mismatch]: Le champ 'Description' diffère (PCB: '', Schématique 'Resistor, small symbol')
+    Local override; warning
+    @(181.0000 mm, 82.0000 mm): Empreinte R16
+[net_conflict]: Le net (RELAY_CTRL) du pad ne correspond pas à celui donné par la schématique (/GPIO27)
+    Local override; warning
+    @(181.0000 mm, 82.8250 mm): Pad 1 [RELAY_CTRL] de R16 sur F.Cu
+[footprint_symbol_field_mismatch]: Le champ 'Description' diffère (PCB: '', Schématique 'Resistor, small symbol')
+    Local override; warning
+    @(148.0000 mm, 98.0000 mm): Empreinte R17
+[net_conflict]: Le net (DAC_OUTL_RAW) du pad ne correspond pas à celui donné par la schématique (/DAC_OUTL_RAW)
+    Local override; warning
+    @(148.0000 mm, 98.8250 mm): Pad 1 [DAC_OUTL_RAW] de R17 sur F.Cu
+[net_conflict]: Le net (DAC_FLT_L) du pad ne correspond pas à celui donné par la schématique (/DAC_FLT_L)
+    Local override; warning
+    @(148.0000 mm, 97.1750 mm): Pad 2 [DAC_FLT_L] de R17 sur F.Cu
+[footprint_symbol_field_mismatch]: Le champ 'Description' diffère (PCB: '', Schématique 'Resistor, small symbol')
+    Local override; warning
+    @(151.0000 mm, 98.0000 mm): Empreinte R18
+[net_conflict]: Le net (DAC_OUTR_RAW) du pad ne correspond pas à celui donné par la schématique (/DAC_OUTR_RAW)
+    Local override; warning
+    @(151.0000 mm, 98.8250 mm): Pad 1 [DAC_OUTR_RAW] de R18 sur F.Cu
+[net_conflict]: Le net (DAC_FLT_R) du pad ne correspond pas à celui donné par la schématique (/DAC_FLT_R)
+    Local override; warning
+    @(151.0000 mm, 97.1750 mm): Pad 2 [DAC_FLT_R] de R18 sur F.Cu
+[footprint_symbol_field_mismatch]: Le champ 'Description' diffère (PCB: '', Schématique 'Resistor, small symbol')
+    Local override; warning
+    @(154.0000 mm, 98.0000 mm): Empreinte R19
+[net_conflict]: Le net (DAC_XSMT) du pad ne correspond pas à celui donné par la schématique (/DAC_XSMT)
+    Local override; warning
+    @(154.0000 mm, 97.1750 mm): Pad 2 [DAC_XSMT] de R19 sur F.Cu
+[net_conflict]: Le net (REV_12V_IN) du pad ne correspond pas à celui donné par la schématique (/REV_12V_IN)
+    Local override; warning
+    @(162.0000 mm, 105.8250 mm): Pad 1 [REV_12V_IN] de R22 sur F.Cu
+[net_conflict]: Le net (GPIO13{slash}PWM1) du pad ne correspond pas à celui donné par la schématique (/GPIO13{slash}PWM1)
+    Local override; warning
+    @(162.0000 mm, 104.1750 mm): Pad 2 [GPIO13/PWM1] de R22 sur F.Cu
+[net_conflict]: Le net (REV_SENSE_3V3) du pad ne correspond pas à celui donné par la schématique (/GPIO13{slash}PWM1)
+    Local override; warning
+    @(162.0000 mm, 108.8250 mm): Pad 1 [REV_SENSE_3V3] de R23 sur F.Cu
+[net_conflict]: Le net (VID_SEL) du pad ne correspond pas à celui donné par la schématique (/VID_SEL)
+    Local override; warning
+    @(132.0000 mm, 99.3250 mm): Pad 1 [VID_SEL] de R24 sur F.Cu
+[net_conflict]: Le net (TV_TRIG_GATE) du pad ne correspond pas à celui donné par la schématique (/TV_TRIG_GATE)
+    Local override; warning
+    @(136.0000 mm, 105.8250 mm): Pad 1 [TV_TRIG_GATE] de R25 sur F.Cu
+[net_conflict]: Le net (FAN_GATE) du pad ne correspond pas à celui donné par la schématique (/FAN_GATE)
+    Local override; warning
+    @(111.0000 mm, 92.8250 mm): Pad 1 [FAN_GATE] de R26 sur F.Cu
+[net_conflict]: Le net (GPIO12{slash}PWM0) du pad ne correspond pas à celui donné par la schématique (/GPIO12{slash}PWM0)
+    Local override; warning
+    @(115.0000 mm, 92.8250 mm): Pad 1 [GPIO12/PWM0] de R27 sur F.Cu
+[net_conflict]: Le net (FAN_GATE) du pad ne correspond pas à celui donné par la schématique (/FAN_GATE)
+    Local override; warning
+    @(115.0000 mm, 91.1750 mm): Pad 2 [FAN_GATE] de R27 sur F.Cu
+[net_conflict]: Le net (VRAW) du pad ne correspond pas à celui donné par la schématique (/VRAW)
+    Local override; warning
+    @(115.0000 mm, 71.8250 mm): Pad 1 [VRAW] de R28 sur F.Cu
+[net_conflict]: Le net (DVR_VCC_5V) du pad ne correspond pas à celui donné par la schématique (/DVR_VCC_5V)
+    Local override; warning
+    @(115.0000 mm, 70.1750 mm): Pad 2 [DVR_VCC_5V] de R28 sur F.Cu
+[net_conflict]: Le net (VRAW) du pad ne correspond pas à celui donné par la schématique (/VRAW)
+    Local override; warning
+    @(114.0000 mm, 76.8250 mm): Pad 1 [VRAW] de R29 sur F.Cu
+[net_conflict]: Le net (DVR_SENSE) du pad ne correspond pas à celui donné par la schématique (/DVR_SENSE)
+    Local override; warning
+    @(114.0000 mm, 75.1750 mm): Pad 2 [DVR_SENSE] de R29 sur F.Cu
+[net_conflict]: Le net (DVR_SENSE) du pad ne correspond pas à celui donné par la schématique (/DVR_SENSE)
+    Local override; warning
+    @(117.0000 mm, 76.8250 mm): Pad 1 [DVR_SENSE] de R30 sur F.Cu
+[net_conflict]: Le net (DVR_SENSE) du pad ne correspond pas à celui donné par la schématique (/DVR_SENSE)
+    Local override; warning
+    @(114.0000 mm, 84.8250 mm): Pad 1 [DVR_SENSE] de R34 sur F.Cu
+[net_conflict]: Le net (DVR_COMP_OUT) du pad ne correspond pas à celui donné par la schématique (/DVR_COMP_OUT)
+    Local override; warning
+    @(114.0000 mm, 83.1750 mm): Pad 2 [DVR_COMP_OUT] de R34 sur F.Cu
+[net_conflict]: Le net (VRAW) du pad ne correspond pas à celui donné par la schématique (/VRAW)
+    Local override; warning
+    @(117.0000 mm, 84.8250 mm): Pad 1 [VRAW] de R35 sur F.Cu
+[net_conflict]: Le net (DVR_PMOS_GATE) du pad ne correspond pas à celui donné par la schématique (/DVR_PMOS_GATE)
+    Local override; warning
+    @(117.0000 mm, 83.1750 mm): Pad 2 [DVR_PMOS_GATE] de R35 sur F.Cu
+[net_conflict]: Le net (DVR_PMOS_GATE) du pad ne correspond pas à celui donné par la schématique (/DVR_PMOS_GATE)
+    Local override; warning
+    @(120.0000 mm, 84.8250 mm): Pad 1 [DVR_PMOS_GATE] de R36 sur F.Cu
+[net_conflict]: Le net (DVR_GATE_PULL) du pad ne correspond pas à celui donné par la schématique (/DVR_GATE_PULL)
+    Local override; warning
+    @(120.0000 mm, 83.1750 mm): Pad 2 [DVR_GATE_PULL] de R36 sur F.Cu
+[net_conflict]: Le net (DVR_COMP_OUT) du pad ne correspond pas à celui donné par la schématique (/DVR_COMP_OUT)
+    Local override; warning
+    @(123.0000 mm, 84.8250 mm): Pad 1 [DVR_COMP_OUT] de R37 sur F.Cu
+[net_conflict]: Le net (GPIO26) du pad ne correspond pas à celui donné par la schématique (/GPIO26)
+    Local override; warning
+    @(123.0000 mm, 83.1750 mm): Pad 2 [GPIO26] de R37 sur F.Cu
+[net_conflict]: Le net (GPIO26) du pad ne correspond pas à celui donné par la schématique (/GPIO26)
+    Local override; warning
+    @(126.0000 mm, 84.8250 mm): Pad 1 [GPIO26] de R38 sur F.Cu
+[net_conflict]: Le net (GPIO23) du pad ne correspond pas à celui donné par la schématique (/GPIO23)
+    Local override; warning
+    @(182.0000 mm, 102.8250 mm): Pad 1 [GPIO23] de R39 sur F.Cu
+[net_conflict]: Le net (Net-(R39-Pad2)) du pad ne correspond pas à celui donné par la schématique (Net-(Q4-G))
+    Local override; warning
+    @(182.0000 mm, 101.1750 mm): Pad 2 [Net-(R39-Pad2)] de R39 sur F.Cu
+[net_conflict]: Le net (Net-(R39-Pad2)) du pad ne correspond pas à celui donné par la schématique (Net-(Q4-G))
+    Local override; warning
+    @(185.1750 mm, 102.0000 mm): Pad 1 [Net-(R39-Pad2)] de R40 sur F.Cu
+[net_conflict]: Le net (GPIO17) du pad ne correspond pas à celui donné par la schématique (/GPIO17)
+    Local override; warning
+    @(170.0000 mm, 103.3250 mm): Pad 1 [GPIO17] de R41 sur F.Cu
+[net_conflict]: Le net (Net-(R41-Pad2)) du pad ne correspond pas à celui donné par la schématique (Net-(U7-~{SHND}))
+    Local override; warning
+    @(170.0000 mm, 101.6750 mm): Pad 2 [Net-(R41-Pad2)] de R41 sur F.Cu
+[net_conflict]: Le net (Net-(R41-Pad2)) du pad ne correspond pas à celui donné par la schématique (Net-(U7-~{SHND}))
+    Local override; warning
+    @(173.1750 mm, 102.5000 mm): Pad 1 [Net-(R41-Pad2)] de R42 sur F.Cu
+[net_conflict]: Le net (Net-(R43-Pad2)) du pad ne correspond pas à celui donné par la schématique (Net-(U7-INL))
+    Local override; warning
+    @(164.0000 mm, 94.1750 mm): Pad 2 [Net-(R43-Pad2)] de R43 sur F.Cu
+[net_conflict]: Le net (Net-(C33-Pad1)) du pad ne correspond pas à celui donné par la schématique (/TEL_MIC+)
+    Local override; warning
+    @(189.1750 mm, 102.0000 mm): Pad 1 [Net-(C33-Pad1)] de R45 sur F.Cu
+[footprint_symbol_field_mismatch]: Le champ 'Description' diffère (PCB: '', Schématique 'Single Pole Single Throw (SPST) switch')
+    Local override; warning
+    @(122.0000 mm, 71.0000 mm): Empreinte SW_BENCH
+[net_conflict]: Le net (+12V_IN) du pad ne correspond pas à celui donné par la schématique (/+12V_IN)
+    Local override; warning
+    @(117.6950 mm, 71.0000 mm): Pad 1 [+12V_IN] de SW_BENCH sur F.Cu
+[net_conflict]: Le net (BENCH_PULLUP) du pad ne correspond pas à celui donné par la schématique (/BENCH_PULLUP)
+    Local override; warning
+    @(126.3050 mm, 71.0000 mm): Pad 2 [BENCH_PULLUP] de SW_BENCH sur F.Cu
+[net_conflict]: Le net (DVR_SENSE) du pad ne correspond pas à celui donné par la schématique (/DVR_SENSE)
+    Local override; warning
+    @(104.5000 mm, 75.3050 mm): Pad 2 [DVR_SENSE] de SW_DVR_CFG sur F.Cu
+[footprint_symbol_field_mismatch]: Le champ 'Datasheet' diffère (PCB: '', Schématique 'https://www.onsemi.cn/PowerSolutions/document/CAT24C256-D.PDF')
+    Local override; warning
+    @(128.0000 mm, 65.0000 mm): Empreinte U1
+[net_conflict]: Le pad a le net manquant donné par la schématique (unconnected-(U1-A0-Pad1))
+    Local override; warning
+    @(125.5250 mm, 63.0950 mm): Pad 1 [<no net>] de U1 sur F.Cu
+[net_conflict]: Le pad a le net manquant donné par la schématique (unconnected-(U1-A1-Pad2))
+    Local override; warning
+    @(125.5250 mm, 64.3650 mm): Pad 2 [<no net>] de U1 sur F.Cu
+[net_conflict]: Le pad a le net manquant donné par la schématique (unconnected-(U1-A2-Pad3))
+    Local override; warning
+    @(125.5250 mm, 65.6350 mm): Pad 3 [<no net>] de U1 sur F.Cu
+[net_conflict]: Le net (ID_SDA) du pad ne correspond pas à celui donné par la schématique (/ID_SDA)
+    Local override; warning
+    @(130.4750 mm, 66.9050 mm): Pad 5 [ID_SDA] de U1 sur F.Cu
+[net_conflict]: Le net (ID_SCL) du pad ne correspond pas à celui donné par la schématique (/ID_SCL)
+    Local override; warning
+    @(130.4750 mm, 65.6350 mm): Pad 6 [ID_SCL] de U1 sur F.Cu
+[net_conflict]: Le net (Net-(JP1-Pad1)) du pad ne correspond pas à celui donné par la schématique (Net-(JP1-A))
+    Local override; warning
+    @(130.4750 mm, 64.3650 mm): Pad 7 [Net-(JP1-Pad1)] de U1 sur F.Cu
+[footprint_symbol_field_mismatch]: Le champ 'Description' diffère (PCB: '', Schématique 'Melexis TH3122.4 K-Bus / I-Bus transceiver with 5V/100mA regulator')
+    Local override; warning
+    @(151.0000 mm, 77.0000 mm): Empreinte U2
+[net_conflict]: Le net (+12V_IN) du pad ne correspond pas à celui donné par la schématique (/+12V_IN)
+    Local override; warning
+    @(148.5250 mm, 72.5550 mm): Pad 1 [+12V_IN] de U2 sur F.Cu
+[net_conflict]: Le net (IBUS_5V) du pad ne correspond pas à celui donné par la schématique (/IBUS_5V)
+    Local override; warning
+    @(148.5250 mm, 73.8250 mm): Pad 2 [IBUS_5V] de U2 sur F.Cu
+[footprint_symbol_field_mismatch]: Le champ 'Datasheet' diffère (PCB: '', Schématique 'http://www.ti.com/lit/ds/symlink/tps54302.pdf')
+    Local override; warning
+    @(158.0000 mm, 63.0000 mm): Empreinte U3
+[footprint_symbol_field_mismatch]: Le champ 'Datasheet' diffère (PCB: '', Schématique 'http://www.ti.com/lit/ds/symlink/pcm5122.pdf')
+    Local override; warning
+    @(142.0000 mm, 88.0000 mm): Empreinte U4
+[footprint_symbol_field_mismatch]: Le champ 'Description' diffère (PCB: '', Schématique '5W Class-D Audio Amp')
+    Local override; warning
+    @(172.0000 mm, 90.0000 mm): Empreinte U7
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - PTH inside courtyard
+    - NPTH inside courtyard
+
+** End of Report **
