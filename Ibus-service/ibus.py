@@ -140,6 +140,10 @@ def detect_resler_port(wemos_port):
             score += 100
         if "ftdi" in desc or "ftdi" in prod or "ftdi" in hwid:
             score += 20
+        if "cp210" in desc or "cp210" in prod or "cp210" in hwid:
+            score += 15
+        if "ch34" in desc or "ch34" in prod or "ch34" in hwid:
+            score += 10
         if "usb serial" in desc or "uart" in desc:
             score += 5
 
@@ -151,7 +155,10 @@ def detect_resler_port(wemos_port):
         logging.info("Selected Resler candidate: %s (%s, score=%d)", dev, p["description"], score)
         return dev
 
-    logging.warning("No Resler serial port found")
+    logging.warning("No Resler serial port found. Scanned ports:")
+    for p in list_serial_candidates():
+        logging.warning("  Device: %s, Desc: %s, HWID: %s, VID: %04X, PID: %04X",
+                        p["device"], p["description"], p["hwid"], p["vid"] or 0, p["pid"] or 0)
     return None
 class WemosRelay:
     def __init__(self, port, baud):
@@ -237,10 +244,13 @@ class WemosRelay:
         while time.time() < deadline:
             chunk = self.ser.read(64)
             if chunk:
+                logging.info("Wemos raw <- %r", chunk)
                 self.rxbuf.extend(chunk)
                 lines = self._extract_lines()
                 if lines:
                     return lines[-1]
+        if self.rxbuf:
+            logging.warning("Wemos partial RX buffer timeout: %r", bytes(self.rxbuf))
         return None
 
     def _drain_complete_lines(self, max_wait=0.05):
@@ -260,6 +270,11 @@ class WemosRelay:
 
         try:
             self._drain_complete_lines(0.05)
+            try:
+                self.ser.reset_input_buffer()
+            except Exception:
+                pass
+            self.rxbuf.clear()
             self.ser.write((cmd + "\n").encode())
             self.ser.flush()
             logging.info("Wemos TX -> %s", cmd)
